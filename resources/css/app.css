@@ -6,11 +6,13 @@
 
 
 .pqa-blue-1{
-    background: #05224A;
+    background: #05224A !important;
+    background: #05224A !important;
 }
 
 .pqa-button-hover:hover{
-    background: #0f3d7d;
+
+    background-image: linear-gradient(to right, #033A85,#1356b3 );
 }
 
 .pqa-nav-text:hover{
@@ -29,8 +31,8 @@ ul.absolute {
 
   
 .pqa-bg-image{
-    min-height: 75vh;
-    background: url('/public/assets/image\ 10.png');
+    /* min-height: 75vh; */
+    /* background: url('/public/assets/image\ 10.png'); */
     /* background-attachment: fixed; */
 }
 
@@ -46,6 +48,12 @@ ul.absolute {
 }
 .pqa-text-blue-2 {
     color: #01388D;
+}
+.pqa-text-blue-3 {
+   background: #033988 !important;
+}
+.pqa-text-blue-3:hover {
+   background: #1860cc !important;
 }
 
 .pqa-blue-1-{
@@ -108,3 +116,32 @@ ul.absolute {
 .pqa-border-bottom{
     border-bottom-color: #01388D ;
 }
+
+
+
+.v-carousel__prev-icon:hover,
+.v-carousel__next-icon:hover {
+  color: blue !important;
+}
+
+
+.custom-active-dot {
+    width: 10px !important; 
+    height: 10px !important;
+  }
+
+  .pqa-car{
+    position: absolute;
+    bottom: 0;
+
+  }
+
+/* 
+  .pqa-carousel-button{
+    transition: 0.3s ease-in-out;
+  }
+  .pqa-carousel-button:hover{
+
+    background: rgba(0,0,0,0.5);
+
+  } */

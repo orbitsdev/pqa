@@ -89,69 +89,99 @@
   <!-- CAROSEL -->
 
 
-  <section class="">
-    <aside class="bg-red min-h-screen pqa-bg-image">
-        <v-carousel>
+  <section class="lg:bg-white lg:pb-40 lg:relative">
+    <aside class="bg-red ">
+        <v-carousel
+        hide-delimiters
+        :color="'#ffff'"
+        delimiter-icon="mdi-square"
+        cycle
+    height="500"
+    
+    show-arrows="hover"
+        >
+
+        <!-- <template v-slot:prev="{ props }">
+        
+
+            <button
+            class="p-4 rounded-full text-white font-bolx text-lg pqa-carousel-button "
+            @click="props.onClick"
+            >
+            <i class="fa-solid fa-chevron-left"></i>
+         
+            </button>
+          </template>
+          <template v-slot:next="{ props }">
+        
+            <button
+            class="p-4 rounded-full text-white font-bolx text-lg pqa-carousel-button "
+            @click="props.onClick"
+            >
+            <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </template> -->
+       
             <v-carousel-item
-              src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+              src="/assets/cover1.png"
               cover
             ></v-carousel-item>
           
             <v-carousel-item
-              src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+              src="/assets/cover1.png"
               cover
             ></v-carousel-item>
           
             <v-carousel-item
-              src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+              src="/assets/cover1.png"
               cover
             ></v-carousel-item>
           </v-carousel>
 
     </aside>
-    <aside  class="bg-white ">
-        <ul class=" border-b-4 pqa-border-bottom flex justify-center ">
+    <aside  class=" lg:absolute lg:inset-x-0 lg:bottom-0 lg:mx-20 lg:mb-0  z-20  ">
+        <ul class="lg:flex lg:justify-center ">
             <li> 
-                <div class="text-center  p-10">
-                    <dd>
-                        <i class="fa-regular fa-newspaper text-3xl pqa-text-blue-2 font-extrabold"></i>
+                <div class="lg:bg-white lg:border-b-2 lg:shadow-md pqa-border-bottom  lg:py-6 lg:px-12 lg:flex lg:justify-center lg:flex-col lg:items-center">
+                    <dd class="lg:text-3xl pqa-text-blue-2 lg:font-extrabold">
+                        <i class="fa-regular fa-newspaper "></i>
                     </dd>
-                     <p class="text-lg font-bold uppercase pqa-text-blue-2 mt-2"> Apply</p>
-                     <p class="leading-3 text-sm"> For  Assesment Cycle </p>
-                     <button class="py-2 px-16 pqa-blue-1 rounded text-white text-base mt-4  pqa-button-hover " > More Details </button>
+                     <p class="uppercase lg:font-extrabold pqa-text-blue-2"> Apply</p>
+                     <p class="uppercase lg:text-sm lg:font-medium"> For  Assesment Cycle </p>
+                     <button class="lg:mt-4 pqa-button-hover lg:py-1 lg:px-4 pqa-text-blue-3 lg:text-white" ><span> More Details </span> <i class="fa-solid fa-chevron-right lg:mr-2"></i> </button>
                 </div>
             </li>
        
             <li> 
-                <div class="text-center  p-10">
-                    <dd>
-                        <i class="fa-regular fa-newspaper text-3xl pqa-text-blue-2 font-extrabold"></i>
+                <div class="lg:bg-white lg:border-b-2 lg:shadow-md pqa-border-bottom  lg:py-6 lg:px-12 lg:flex lg:justify-center lg:flex-col lg:items-center">
+                    <dd class="lg:text-3xl pqa-text-blue-2 lg:font-extrabold">
+                        <i class="fa-regular fa-newspaper "></i>
                     </dd>
-                     <p class="text-lg font-bold uppercase pqa-text-blue-2 mt-2"> Apply</p>
-                     <p class="leading-3 text-sm"> For  Assesment Cycle </p>
-                     <button class="py-2 px-16 pqa-blue-1 rounded text-white text-base mt-4  pqa-button-hover " > More Details </button>
+                     <p class="uppercase lg:font-extrabold pqa-text-blue-2"> Apply</p>
+                     <p class="uppercase lg:text-sm lg:font-medium"> For  Assesment Cycle </p>
+                     <button class="lg:mt-4 pqa-button-hover lg:py-1 lg:px-4 pqa-text-blue-3 lg:text-white" ><span> More Details </span> <i class="fa-solid fa-chevron-right lg:mr-2"></i> </button>
                 </div>
             </li>
        
             <li> 
-                <div class="text-center  p-10">
-                    <dd>
-                        <i class="fa-regular fa-newspaper text-3xl pqa-text-blue-2 font-extrabold"></i>
+                <div class="lg:bg-white lg:border-b-2 lg:shadow-md pqa-border-bottom  lg:py-6 lg:px-12 lg:flex lg:justify-center lg:flex-col lg:items-center">
+                    <dd class="lg:text-3xl pqa-text-blue-2 lg:font-extrabold">
+                        <i class="fa-regular fa-newspaper "></i>
                     </dd>
-                     <p class="text-lg font-bold uppercase pqa-text-blue-2 mt-2"> Apply</p>
-                     <p class="leading-3 text-sm"> For  Assesment Cycle </p>
-                     <button class="py-2 px-16 pqa-blue-1 rounded text-white text-base mt-4  pqa-button-hover " > More Details </button>
+                     <p class="uppercase lg:font-extrabold pqa-text-blue-2"> Apply</p>
+                     <p class="uppercase lg:text-sm lg:font-medium"> For  Assesment Cycle </p>
+                     <button class="lg:mt-4 pqa-button-hover lg:py-1 lg:px-4 pqa-text-blue-3 lg:text-white" ><span> More Details </span> <i class="fa-solid fa-chevron-right lg:mr-2"></i> </button>
                 </div>
             </li>
       
             <li> 
-                <div class="text-center  p-10">
-                    <dd>
-                        <i class="fa-regular fa-newspaper text-3xl pqa-text-blue-2 font-extrabold"></i>
+                <div class="lg:bg-white lg:border-b-2 lg:shadow-md pqa-border-bottom  lg:py-6 lg:px-12 lg:flex lg:justify-center lg:flex-col lg:items-center">
+                    <dd class="lg:text-3xl pqa-text-blue-2 lg:font-extrabold">
+                        <i class="fa-regular fa-newspaper "></i>
                     </dd>
-                     <p class="text-lg font-bold uppercase pqa-text-blue-2 mt-2"> Apply</p>
-                     <p class="leading-3 text-sm"> For  Assesment Cycle </p>
-                     <button class="py-2 px-16 pqa-blue-1 rounded text-white text-base mt-4  pqa-button-hover " > More Details </button>
+                     <p class="uppercase lg:font-extrabold pqa-text-blue-2"> Apply</p>
+                     <p class="uppercase lg:text-sm lg:font-medium"> For  Assesment Cycle </p>
+                     <button class="lg:mt-4 pqa-button-hover lg:py-1 lg:px-4 pqa-text-blue-3 lg:text-white" ><span> More Details </span> <i class="fa-solid fa-chevron-right lg:mr-2"></i> </button>
                 </div>
             </li>
         </ul>
