@@ -56,6 +56,10 @@ ul.absolute {
    background: #1860cc !important;
 }
 
+.pqa-text-gold-4{
+    color: #C18B03 ;
+}
+
 .pqa-blue-1-{
     background: #093066;
 }
@@ -116,6 +120,23 @@ ul.absolute {
 .pqa-border-bottom{
     border-bottom-color: #01388D ;
 }
+.pqa-border-b-gold{
+    border-color: #C18B03 ;
+}
+.pqa-border-gold{
+    border-color: #C18B03 ;
+}
+.pqa-gold-4{
+    background: #F5ECD7 ;
+}
+.pqa-bg-gold-4{
+    background: #C18B03  ;
+}
+.pqa-text-gold-4{
+    color: #C18B03  ;
+}
+
+
 
 
 

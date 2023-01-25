@@ -2,7 +2,7 @@
 
     <!-- NAVIGATION -->
   <section class="z-10  pqa-blue-1 px-20 relative" >
-    
+
     <aside class="">
       <ul class=" text-white flex justify-end items-center lg:py-4 ">
         <li class="lg:ml-4  "><img class="lg:h-6 lg:w-6" src="/assets/fb-logo.svg" alt="" /></li>
@@ -13,7 +13,7 @@
 
     <aside class="pqa-blue-linear flex justify-between items-center ">
       <p class=" text-white font-play-fair lg:text-xl lg:font-bold lg:ml-20">Philippine Quality Award</p>
-      <ul class="flex items-center "> 
+      <ul class="flex items-center ">
         <li class="font-raleway text-white uppercase lg:text-sm lg:ml-2  lg:py-4 lg:px-3 cursor-pointer pqa-nav-text  ">home</li>
         <li class="font-raleway text-white uppercase lg:text-sm lg:ml-2  lg:py-4 lg:px-3 cursor-pointer pqa-nav-text   relative">
 
@@ -26,7 +26,7 @@
                 <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
                 <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
                 <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
-              </ul>  
+              </ul>
 
         </li>
         <li class="font-raleway text-white uppercase lg:text-sm lg:ml-2  lg:py-4 lg:px-3 cursor-pointer pqa-nav-text   relative">
@@ -40,7 +40,7 @@
                 <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
                 <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
                 <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
-              </ul>  
+              </ul>
 
         </li>
         <li class="font-raleway text-white uppercase lg:text-sm lg:ml-2  lg:py-4 lg:px-3 cursor-pointer pqa-nav-text  ">resources</li>
@@ -56,7 +56,7 @@
           </ul>  </li>
         <li class="font-raleway text-white uppercase lg:text-sm lg:ml-2  lg:py-4 lg:px-3 cursor-pointer pqa-nav-text  ">
                     fqa
-        
+
         </li>
         <li class="font-raleway text-white uppercase lg:text-sm lg:ml-2  lg:py-4 lg:px-3 cursor-pointer pqa-nav-text  ">contact ise</li>
         <li class="font-raleway text-white uppercase lg:text-sm lg:ml-2  lg:py-4 lg:px-3 cursor-pointer pqa-nav-text   ">
@@ -97,23 +97,23 @@
         delimiter-icon="mdi-square"
         cycle
     height="500"
-    
+
     show-arrows="hover"
         >
 
         <!-- <template v-slot:prev="{ props }">
-        
+
 
             <button
             class="p-4 rounded-full text-white font-bolx text-lg pqa-carousel-button "
             @click="props.onClick"
             >
             <i class="fa-solid fa-chevron-left"></i>
-         
+
             </button>
           </template>
           <template v-slot:next="{ props }">
-        
+
             <button
             class="p-4 rounded-full text-white font-bolx text-lg pqa-carousel-button "
             @click="props.onClick"
@@ -121,17 +121,17 @@
             <i class="fa-solid fa-chevron-right"></i>
             </button>
           </template> -->
-       
+
             <v-carousel-item
               src="/assets/cover1.png"
               cover
             ></v-carousel-item>
-          
+
             <v-carousel-item
               src="/assets/cover1.png"
               cover
             ></v-carousel-item>
-          
+
             <v-carousel-item
               src="/assets/cover1.png"
               cover
@@ -141,7 +141,7 @@
     </aside>
     <aside  class=" lg:absolute lg:inset-x-0 lg:bottom-0 lg:mx-20 lg:mb-0  z-20  ">
         <ul class="lg:flex lg:justify-center ">
-            <li> 
+            <li v-for="step in steps" :key="step">
                 <div class="lg:bg-white lg:border-b-2 lg:shadow-md pqa-border-bottom  lg:py-6 lg:px-12 lg:flex lg:justify-center lg:flex-col lg:items-center">
                     <dd class="lg:text-3xl pqa-text-blue-2 lg:font-extrabold">
                         <i class="fa-regular fa-newspaper "></i>
@@ -151,167 +151,100 @@
                      <button class="lg:mt-4 pqa-button-hover lg:py-1 lg:px-4 pqa-text-blue-3 lg:text-white" ><span> More Details </span> <i class="fa-solid fa-chevron-right lg:mr-2"></i> </button>
                 </div>
             </li>
-       
-            <li> 
-                <div class="lg:bg-white lg:border-b-2 lg:shadow-md pqa-border-bottom  lg:py-6 lg:px-12 lg:flex lg:justify-center lg:flex-col lg:items-center">
-                    <dd class="lg:text-3xl pqa-text-blue-2 lg:font-extrabold">
-                        <i class="fa-regular fa-newspaper "></i>
-                    </dd>
-                     <p class="uppercase lg:font-extrabold pqa-text-blue-2"> Apply</p>
-                     <p class="uppercase lg:text-sm lg:font-medium"> For  Assesment Cycle </p>
-                     <button class="lg:mt-4 pqa-button-hover lg:py-1 lg:px-4 pqa-text-blue-3 lg:text-white" ><span> More Details </span> <i class="fa-solid fa-chevron-right lg:mr-2"></i> </button>
-                </div>
-            </li>
-       
-            <li> 
-                <div class="lg:bg-white lg:border-b-2 lg:shadow-md pqa-border-bottom  lg:py-6 lg:px-12 lg:flex lg:justify-center lg:flex-col lg:items-center">
-                    <dd class="lg:text-3xl pqa-text-blue-2 lg:font-extrabold">
-                        <i class="fa-regular fa-newspaper "></i>
-                    </dd>
-                     <p class="uppercase lg:font-extrabold pqa-text-blue-2"> Apply</p>
-                     <p class="uppercase lg:text-sm lg:font-medium"> For  Assesment Cycle </p>
-                     <button class="lg:mt-4 pqa-button-hover lg:py-1 lg:px-4 pqa-text-blue-3 lg:text-white" ><span> More Details </span> <i class="fa-solid fa-chevron-right lg:mr-2"></i> </button>
-                </div>
-            </li>
-      
-            <li> 
-                <div class="lg:bg-white lg:border-b-2 lg:shadow-md pqa-border-bottom  lg:py-6 lg:px-12 lg:flex lg:justify-center lg:flex-col lg:items-center">
-                    <dd class="lg:text-3xl pqa-text-blue-2 lg:font-extrabold">
-                        <i class="fa-regular fa-newspaper "></i>
-                    </dd>
-                     <p class="uppercase lg:font-extrabold pqa-text-blue-2"> Apply</p>
-                     <p class="uppercase lg:text-sm lg:font-medium"> For  Assesment Cycle </p>
-                     <button class="lg:mt-4 pqa-button-hover lg:py-1 lg:px-4 pqa-text-blue-3 lg:text-white" ><span> More Details </span> <i class="fa-solid fa-chevron-right lg:mr-2"></i> </button>
-                </div>
-            </li>
+
+
         </ul>
     </aside>
 
 </section>
 <!-- NEWS -->
 
-  <section>
+  <section class="lg:px-20">
+
+    <div class="lg:grid lg:grid-cols-3">
+        <aside class="mt-12 col-span-2">
+            <div class="lg:flex lg:justify-between mb-4">
+                <div class="lg:border-b-4 pqa-border-b-gold ">
+                    <p class="font-play-fair lg:text-4xl lg:font-bold ">News</p>
+
+                </div>
+                <button class="lg:border  lg:px-2 pqa-border-gold  text-white pqa-bg-gold-4">
+                    <!-- <i class="fa-solid fa-eye">
+
+                    </i> -->
+                    <span > View all news</span>
+                </button>
+            </div>
+
+            <ul class="flex">
+                <li class="lg:mx-1" v-for="n in news" :key="n">
+                    <div>
+
+                        <div class=""> <img src="/assets/exampl2.png" alt="" class="w-full"></div>
+                        <div class="lg:flex lg:text-xs lg:justify-between lg:items-center lg:py-2"> <p class="lg:font-bold lg:p-1 lg:px-2 pqa-text-gold-4 lg:rounded-lg pqa-gold-4 ">News</p> <p  class="lg:text-xs"> Monday | April 04, 2022  </p> </div>
+                        <p class="lg:text-base lg:font-extrabold lg:leading-4 lg:my-1">DTI Lauds PQA Regional Champions.</p>
+                        <p class="lg:text-base lg:leading-5 mt-4">In its bid to intensify the promotion of the PQA nationwide, the Department of Trade and Industry (DTI) pushed for the advancement of small and medium-sized enterprises (SMEs)</p>
+                        <button> Continue Reading</button>
+                        <div>
+                            Liniear Gradient
+                        </div>
+
+                    </div>
+                </li>
+
+            </ul>
+
+            <aside class="lg:mt-10">
+                <div class="lg:flex lg:justify-between mb-4">
+                    <div class="lg:border-b-4 pqa-border-b-gold ">
+                        <p class="font-play-fair lg:text-4xl lg:font-bold ">Featured Articles</p>
+
+                    </div>
+                    <button class="lg:border  lg:px-2 pqa-border-gold  text-white pqa-bg-gold-4">
+                        <!-- <i class="fa-solid fa-eye">
+
+                        </i> -->
+                        <span > View all featured articles</span>
+                    </button>
+                </div>
+            </aside>
+
 
     <aside>
-        <div>
-            <p>News</p>
-            <button class="">
-                <i class="fa-solid fa-eye"></i><span > View All Details</span>
-            </button>
-        </div>
+        <ul class="lg:mt-8">
+            <li class="lg:shadow-lg lg:mb-8 lg:p-4 lg:rounded-sm"  v-for="n in news" :key="n">
+                <div class="">
+                    <p class="lg:text-xs"> Monday | April 04, 2022</p>
+                    <p class="lg:text-lg lg:font-extrabold lg:mt-2">PQA Recipient Organizations (as of 2020)</p>
+                    <p class="lg:text-base lg:leading-0 lg:mt-2">In its bid to intensify the promotion of the PQA nationwide, the Department of Trade and Industry (DTI) pushed for the advancement of small and medium-sized enterprises (SMEs) in quality management as it recognized the pioneer recipient</p>
 
-        <ul>
-            <li>
-                <div>
+                    <button class="lg:text-xs  lg:flex lg:items-center  lg:font-bold lg:mt-2 pqa-text-gold-4">
+                        <span class="lg:mr-2 ">Click to continue reading</span>  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                          </svg>
 
-                    <div> Image</div>
-                    <div> <p>News</p> <p> Monday | April 04, 2022  </p> </div>
-                    <p>DTI Lauds PQA Regional Champions.</p>
-                    <p>In its bid to intensify the promotion of the PQA nationwide, the Department of Trade and Industry (DTI) pushed for the advancement of small and medium-sized enterprises (SMEs)</p>
-                    <button> Continue Reading</button>
-                    <div>
-                        Liniear Gradient
-                    </div>
-
+                    </button>
                 </div>
             </li>
-            <li>
-                <div>
 
-                    <div> Image</div>
-                    <div> <p>News</p> <p> Monday | April 04, 2022  </p> </div>
-                    <p>DTI Lauds PQA Regional Champions.</p>
-                    <p>In its bid to intensify the promotion of the PQA nationwide, the Department of Trade and Industry (DTI) pushed for the advancement of small and medium-sized enterprises (SMEs)</p>
-                    <button> Continue Reading</button>
-                    <div>
-                        Liniear Gradient
-                    </div>
-
-                </div>
-            </li>
-            <li>
-                <div>
-
-                    <div> Image</div>
-                    <div> <p>News</p> <p> Monday | April 04, 2022  </p> </div>
-                    <p>DTI Lauds PQA Regional Champions.</p>
-                    <p>In its bid to intensify the promotion of the PQA nationwide, the Department of Trade and Industry (DTI) pushed for the advancement of small and medium-sized enterprises (SMEs)</p>
-                    <button> Continue Reading</button>
-                    <div>
-                        Liniear Gradient
-                    </div>
-
-                </div>
-            </li>
-            <li>
-                <div>
-
-                    <div> Image</div>
-                    <div> <p>News</p> <p> Monday | April 04, 2022  </p> </div>
-                    <p>DTI Lauds PQA Regional Champions.</p>
-                    <p>In its bid to intensify the promotion of the PQA nationwide, the Department of Trade and Industry (DTI) pushed for the advancement of small and medium-sized enterprises (SMEs)</p>
-                    <button> Continue Reading</button>
-                    <div>
-                        Liniear Gradient
-                    </div>
-
-                </div>
-            </li>
         </ul>
-        
-
     </aside>
- 
+        </aside>
+        <aside>
+
+            Calendar
+        </aside>
+    </div>
+
+
+
   </section>
 
   Featured Articles
-  <section>
 
-    <aside>
-        <div>
-            <p>Featured Articles</p>
-            <button class="">
-                <i class="fa-solid fa-eye"></i><span > View all featured articles</span>
-            </button>
-        </div>
-    </aside>
 
-    <aside>
-        <ul>
-            <li>
-                <div>
-                    <p> Monday | April 04, 2022</p>
-                    <p>PQA Recipient Organizations (as of 2020)</p>
-                    <p>In its bid to intensify the promotion of the PQA nationwide, the Department of Trade and Industry (DTI) pushed for the advancement of small and medium-sized enterprises (SMEs) in quality management as it recognized the pioneer recipient</p>
-
-                    <button> 
-                        <span>Click to continue reading</span>  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                          </svg>
-                          
-                    </button>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <p> Monday | April 04, 2022</p>
-                    <p>PQA Recipient Organizations (as of 2020)</p>
-                    <p>In its bid to intensify the promotion of the PQA nationwide, the Department of Trade and Industry (DTI) pushed for the advancement of small and medium-sized enterprises (SMEs) in quality management as it recognized the pioneer recipient</p>
-
-                    <button> 
-                        <span>Click to continue reading</span>  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                          </svg>
-                          
-                    </button>
-                </div>
-            </li>
-        </ul>
-    </aside>
-  </section>
-  
   <!-- Events -->
- 
+
   <section>
 
     <aside>
@@ -330,11 +263,11 @@
                     <div> <img src="/assets/example.png" alt=""> </div>
                     <p>Monday | October 12, 2022</p>
                     <p>PHILIPPINE QUALITY AWARD MARKS 25 YEARS OF PROMOTING A CULTURE OF EXCELLENCE...</p>
-                    <button> 
+                    <button>
                         <span>Click to continue reading</span>  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                           </svg>
-                          
+
                     </button>
                 </div>
             </li>
@@ -343,18 +276,18 @@
                     <div> <img src="/assets/example.png" alt=""> </div>
                     <p>Monday | October 12, 2022</p>
                     <p>PHILIPPINE QUALITY AWARD MARKS 25 YEARS OF PROMOTING A CULTURE OF EXCELLENCE...</p>
-                    <button> 
+                    <button>
                         <span>Click to continue reading</span>  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                           </svg>
-                          
+
                     </button>
                 </div>
             </li>
-            
+
         </ul>
     </aside>
-    
+
   </section>
   <section>
     <aside>Calendart</aside>
@@ -362,7 +295,7 @@
         <p>Upcoming Event</p>
         <ul>
             <li>
-                <div> 
+                <div>
                     <div>
                          <p>1</p>
                          <p>Jan</p>
@@ -373,7 +306,7 @@
                 </div>
             </li>
             <li>
-                <div> 
+                <div>
                     <div>
                          <p>7</p>
                          <p>Jan</p>
@@ -414,6 +347,14 @@
 
 <script>
 export default {
+
+   data() {
+    return {
+        news: [1,2,3,4],
+        steps: [1,2,3,4],
+
+    }
+   },
   props: {
     data: {
       type: String,
