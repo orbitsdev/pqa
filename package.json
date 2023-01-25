@@ -20,6 +20,7 @@
     },
     "dependencies": {
         "@inertiajs/vue3": "^1.0.0",
-        "@vue/compiler-sfc": "^3.2.45"
+        "@vue/compiler-sfc": "^3.2.45",
+        "vuetify": "^3.1.2"
     }
 }

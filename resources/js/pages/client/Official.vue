@@ -1,32 +1,72 @@
 <template>
 
     <!-- NAVIGATION -->
-  <section>
-    <aside>
-      <ul class="pqa-bg  text-white">
-        <li><img src="/assets/fb-logo.svg" alt="" /></li>
-        <li><img src="/assets/twitter-logo.svg" alt="" /></li>
-        <li><img src="/assets/indeed-logo.svg" alt="" /></li>
+  <section class="z-10  pqa-blue-1 px-20 relative" >
+    
+    <aside class="">
+      <ul class=" text-white flex justify-end items-center lg:py-4 ">
+        <li class="lg:ml-4  "><img class="lg:h-6 lg:w-6" src="/assets/fb-logo.svg" alt="" /></li>
+        <li class="lg:ml-4  "><img class="lg:h-6 lg:w-6" src="/assets/twitter-logo.svg" alt="" /></li>
+        <li class="lg:ml-4  "><img class="lg:h-6 lg:w-6" src="/assets/indeed-logo.svg" alt="" /></li>
       </ul>
     </aside>
-    <aside class="">
-      <p>Philippine Quality Award</p>
-      <ul> 
-        <li class="uppercase">home</li>
-        <li class="uppercase">applicant</li>
-        <li class="uppercase">accessors</li>
-        <li class="uppercase">resources</li>
-        <li class="uppercase">about pqa</li>
-        <li class="uppercase">fqa</li>
-        <li class="uppercase">contact ise</li>
-        <li>
+
+    <aside class="pqa-blue-linear flex justify-between items-center ">
+      <p class=" text-white font-play-fair lg:text-xl lg:font-bold lg:ml-20">Philippine Quality Award</p>
+      <ul class="flex items-center "> 
+        <li class="font-raleway text-white uppercase lg:text-sm lg:ml-2  lg:py-4 lg:px-3 cursor-pointer pqa-nav-text  ">home</li>
+        <li class="font-raleway text-white uppercase lg:text-sm lg:ml-2  lg:py-4 lg:px-3 cursor-pointer pqa-nav-text   relative">
+
+            <span>
+                applicant
+              </span>
+              <i class="fa-solid fa-chevron-down ml-1"></i>
+              <ul class="absolute  pqa-blue-2 top-0 left-0 right-0 lg:mt-14 w-full rounded">
+                <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
+                <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
+                <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
+                <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
+              </ul>  
+
+        </li>
+        <li class="font-raleway text-white uppercase lg:text-sm lg:ml-2  lg:py-4 lg:px-3 cursor-pointer pqa-nav-text   relative">
+
+            <span>
+                accessors
+              </span>
+              <i class="fa-solid fa-chevron-down ml-1"></i>
+              <ul class="absolute  pqa-blue-2 top-0 left-0 right-0 lg:mt-14 w-full rounded">
+                <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
+                <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
+                <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
+                <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
+              </ul>  
+
+        </li>
+        <li class="font-raleway text-white uppercase lg:text-sm lg:ml-2  lg:py-4 lg:px-3 cursor-pointer pqa-nav-text  ">resources</li>
+        <li class="font-raleway text-white uppercase lg:text-sm lg:ml-2  lg:py-4 lg:px-3 cursor-pointer pqa-nav-text   relative">  <span>
+            about pqa
+          </span>
+          <i class="fa-solid fa-chevron-down ml-1"></i>
+          <ul class="absolute  pqa-blue-2 top-0 left-0 right-0 lg:mt-14 w-full rounded">
+            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
+            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
+            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
+            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
+          </ul>  </li>
+        <li class="font-raleway text-white uppercase lg:text-sm lg:ml-2  lg:py-4 lg:px-3 cursor-pointer pqa-nav-text  ">
+                    fqa
+        
+        </li>
+        <li class="font-raleway text-white uppercase lg:text-sm lg:ml-2  lg:py-4 lg:px-3 cursor-pointer pqa-nav-text  ">contact ise</li>
+        <li class="font-raleway text-white uppercase lg:text-sm lg:ml-2  lg:py-4 lg:px-3 cursor-pointer pqa-nav-text   ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-5 h-5"
+            class="w-5 h-5 text-white "
           >
             <path
               stroke-linecap="round"
@@ -38,18 +78,20 @@
       </ul>
     </aside>
 
-    <aside>
-        <div>
-            <img src="/assets/pqa-logo.png" alt="">
+    <aside class=" bg-white inline-block absolute lg:left-15 lg:top-0 lg:bottom-0 lg:py-2">
+        <div class="flex items-center justify-center flex-col">
+            <img src="/assets/pqa-logo.png" alt="" class="lg:h-16 lg:w-16">
+            <p class="uppercase font-bold font-play-fair lg:text-sm ">pqa</p>
         </div>
-        <p>pqa</p>
     </aside>
   </section>
 
   <!-- CAROSEL -->
+
+
   <section>
 
-    <aside> Carosel Image</aside>
+    <aside class="bg-red min-h-screen pqa-bg-image"> Carosel Image</aside>
     <aside>
         <ul>
             <li> 
@@ -325,4 +367,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+
+
+
+</style>

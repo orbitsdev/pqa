@@ -3,16 +3,72 @@
 @tailwind utilities;
 
 
-.pqa-bg { 
- 
+
+
+.pqa-blue-1{
     background: #05224A;
 }
-.pqa-bg-secondary { 
- 
+
+.pqa-nav-text:hover{
+    background-image: linear-gradient(to bottom right, #033A85,#1356b3 );
+}
+
+li.pqa-nav-text:hover ul.absolute {
+    opacity: 1;
+    pointer-events: auto;
+}
+ul.absolute {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+  
+.pqa-bg-image{
+    min-height: 75vh;
+    background: url('/public/assets/image\ 10.png');
+    /* background-attachment: fixed; */
+}
+
+.pqa-li:hover{
+    background: #033A85;
+    color: white;
+    
+}
+
+
+.pqa-text-blue-1{
+    color: #05224A;
+}
+.pqa-blue-1-{
+    background: #093066;
+}
+
+.pqa-blue-2{
+    
     background: #033A85;
 }
-
-.pqa-bg-liniar{
-
-    background: linear-gradient();
+.pqa-blue-3{
+    
+    background: #033A85;
 }
+.pqa-blue-4{
+    
+    background: #002455;
+}
+
+
+.pqa-blue-linear{
+    /* background-image: linear-gradient(to right, #002455 ,#033A85, #002455); */
+    background-image: linear-gradient(to right,#002455 , #002455 ,#033A85, #002455);
+}
+
+.font-play-fair {
+    font-family: 'Playfair Display';
+}
+.font-raleway {
+    font-family: 'Raleway';
+}
+
+
+
