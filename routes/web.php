@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LandingPageController;
 use Inertia\Inertia;
 use Illuminate\Support\Facades\Route;
 
@@ -14,8 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return Inertia::render('Official',[
-        'status'=> 'Success Install'
-    ]);
-});
+// Route::get('/', function () {
+//     return Inertia::render('Official',[
+//         'status'=> 'Success Install'
+//     ]);
+// });
+
+Route::get('/', [LandingPageController::class , 'index'])->name('client.index');
