@@ -21,7 +21,7 @@
                 applicant
               </span>
               <i class="fa-solid fa-chevron-down ml-1"></i>
-              <ul class="absolute  pqa-blue-2 top-0 left-0 right-0 lg:mt-14 w-full rounded">
+              <ul class="absolute  pqa-blue-2 top-0 left-0 right-0 lg:mt-11 w-full rounded">
                 <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
                 <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
                 <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
@@ -35,7 +35,7 @@
                 accessors
               </span>
               <i class="fa-solid fa-chevron-down ml-1"></i>
-              <ul class="absolute  pqa-blue-2 top-0 left-0 right-0 lg:mt-14 w-full rounded">
+              <ul class="absolute  pqa-blue-2 top-0 left-0 right-0 lg:mt-11 w-full rounded">
                 <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
                 <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
                 <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
@@ -48,7 +48,7 @@
             about pqa
           </span>
           <i class="fa-solid fa-chevron-down ml-1"></i>
-          <ul class="absolute  pqa-blue-2 top-0 left-0 right-0 lg:mt-14 w-full rounded">
+          <ul class="absolute  pqa-blue-2 top-0 left-0 right-0 lg:mt-11 w-full rounded">
             <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
             <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
             <li class="lg:py-2 lg:px-2 lg:text-sm capitalize  pqa-nav-text "> Option 1</li>
@@ -89,44 +89,69 @@
   <!-- CAROSEL -->
 
 
-  <section>
+  <section class="">
+    <aside class="bg-red min-h-screen pqa-bg-image">
+        <v-carousel>
+            <v-carousel-item
+              src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+              cover
+            ></v-carousel-item>
+          
+            <v-carousel-item
+              src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+              cover
+            ></v-carousel-item>
+          
+            <v-carousel-item
+              src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+              cover
+            ></v-carousel-item>
+          </v-carousel>
 
-    <aside class="bg-red min-h-screen pqa-bg-image"> Carosel Image</aside>
-    <aside>
-        <ul>
+    </aside>
+    <aside  class="bg-white ">
+        <ul class=" border-b-4 pqa-border-bottom flex justify-center ">
             <li> 
-                <div>
-                    <dd>Logo</dd>
-                     <p> Apply</p>
-                     <p> For  Assesment Cycle </p>
-                     <button> More Details </button>
+                <div class="text-center  p-10">
+                    <dd>
+                        <i class="fa-regular fa-newspaper text-3xl pqa-text-blue-2 font-extrabold"></i>
+                    </dd>
+                     <p class="text-lg font-bold uppercase pqa-text-blue-2 mt-2"> Apply</p>
+                     <p class="leading-3 text-sm"> For  Assesment Cycle </p>
+                     <button class="py-2 px-16 pqa-blue-1 rounded text-white text-base mt-4  pqa-button-hover " > More Details </button>
                 </div>
             </li>
        
             <li> 
-                <div>
-                    <dd>Logo</dd>
-                     <p> Apply</p>
-                     <p> For  Assesment Cycle </p>
-                     <button> More Details </button>
+                <div class="text-center  p-10">
+                    <dd>
+                        <i class="fa-regular fa-newspaper text-3xl pqa-text-blue-2 font-extrabold"></i>
+                    </dd>
+                     <p class="text-lg font-bold uppercase pqa-text-blue-2 mt-2"> Apply</p>
+                     <p class="leading-3 text-sm"> For  Assesment Cycle </p>
+                     <button class="py-2 px-16 pqa-blue-1 rounded text-white text-base mt-4  pqa-button-hover " > More Details </button>
                 </div>
             </li>
        
             <li> 
-                <div>
-                    <dd>Logo</dd>
-                     <p> Apply</p>
-                     <p> For  Assesment Cycle </p>
-                     <button> More Details </button>
+                <div class="text-center  p-10">
+                    <dd>
+                        <i class="fa-regular fa-newspaper text-3xl pqa-text-blue-2 font-extrabold"></i>
+                    </dd>
+                     <p class="text-lg font-bold uppercase pqa-text-blue-2 mt-2"> Apply</p>
+                     <p class="leading-3 text-sm"> For  Assesment Cycle </p>
+                     <button class="py-2 px-16 pqa-blue-1 rounded text-white text-base mt-4  pqa-button-hover " > More Details </button>
                 </div>
             </li>
       
             <li> 
-                <div>
-                    <dd>Logo</dd>
-                     <p> Apply</p>
-                     <p> For  Assesment Cycle </p>
-                     <button> More Details </button>
+                <div class="text-center  p-10">
+                    <dd>
+                        <i class="fa-regular fa-newspaper text-3xl pqa-text-blue-2 font-extrabold"></i>
+                    </dd>
+                     <p class="text-lg font-bold uppercase pqa-text-blue-2 mt-2"> Apply</p>
+                     <p class="leading-3 text-sm"> For  Assesment Cycle </p>
+                     <button class="py-2 px-16 pqa-blue-1 rounded text-white text-base mt-4  pqa-button-hover " > More Details </button>
                 </div>
             </li>
         </ul>

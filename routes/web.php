@@ -22,3 +22,6 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', [LandingPageController::class , 'index'])->name('client.index');
+Route::get('/contact', function(){
+    return Inertia::render('client/Contact');
+});
