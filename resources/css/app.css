@@ -86,7 +86,7 @@ ul.absolute {
 
 .pqa-blue-linear{
     /* background-image: linear-gradient(to right, #002455 ,#033A85, #002455); */
-    background-image: linear-gradient(to right,#002455 , #002455 ,#033A85, #002455);
+    background-image: linear-gradient(to right,#05224A,  #002455 ,#033A85, #033A85,#033A85, #05224A);
 }
 
 .font-play-fair {
@@ -163,3 +163,15 @@ ul.absolute {
 
   }
 
+
+
+  .pqa-blue-7 {
+    background: #F5F4F2 !important;
+  }
+
+  .dti-text-blue-1{
+    color: #233A84;
+  }
+  .dti-border-blue-1{
+    border-color: #233A84;
+  }
