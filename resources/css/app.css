@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 
-
-
 .pqa-blue-1{
     background: #05224A !important;
     background: #05224A !important;
@@ -157,12 +155,3 @@ ul.absolute {
 
   }
 
-/* 
-  .pqa-carousel-button{
-    transition: 0.3s ease-in-out;
-  }
-  .pqa-carousel-button:hover{
-
-    background: rgba(0,0,0,0.5);
-
-  } */

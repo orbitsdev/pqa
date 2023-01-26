@@ -2,7 +2,13 @@ import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 
+import GoldButton from './components/GoldButton.vue';
+import TextWithBottomBorder from './components/TextWithBottomBorder.vue';
+import NewsButton from './components/NewsButton.vue';
 
+
+
+ 
 import vuetify from './plugins/vuetify';
 
 createInertiaApp({
@@ -12,6 +18,9 @@ createInertiaApp({
     .mixin({methods: {route}})
       .use(plugin)
       .use(vuetify)
+      .component('GoldButton', GoldButton)
+      .component('TextWithBottomBorder', TextWithBottomBorder)
+      .component('NewsButton', NewsButton)
       .mount(el)
   },
 });
