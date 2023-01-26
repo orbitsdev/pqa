@@ -314,118 +314,11 @@
   </section>
 
   <section>
-    <aside>
-      <ul>
-        <li>
-          <div>
-            <div><img src="/assets/example.png" alt="" /></div>
-            <p>Monday | October 12, 2022</p>
-            <p>
-              PHILIPPINE QUALITY AWARD MARKS 25 YEARS OF PROMOTING A CULTURE OF
-              EXCELLENCE...
-            </p>
-            <button>
-              <span>Click to continue reading</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                />
-              </svg>
-            </button>
-          </div>
-        </li>
-        <li>
-          <div>
-            <div><img src="/assets/example.png" alt="" /></div>
-            <p>Monday | October 12, 2022</p>
-            <p>
-              PHILIPPINE QUALITY AWARD MARKS 25 YEARS OF PROMOTING A CULTURE OF
-              EXCELLENCE...
-            </p>
-            <button>
-              <span>Click to continue reading</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                />
-              </svg>
-            </button>
-          </div>
-        </li>
-      </ul>
-    </aside>
+    <ul>
+      <li></li>
+    </ul>
   </section>
-  <section>
-    <aside>Calendart</aside>
-    <aside>
-      <p>Upcoming Event</p>
-      <ul>
-        <li>
-          <div>
-            <div>
-              <p>1</p>
-              <p>Jan</p>
-            </div>
-            <div>
-              <p>New Year’s Thanks giving</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div>
-            <div>
-              <p>7</p>
-              <p>Jan</p>
-            </div>
-            <div>
-              <p>Good Fridat</p>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </aside>
-  </section>
-  <footer>
-    <aside>
-      <div>
-        <img src="/assets/pqa-logo_new-removebg-preview 2.png" alt="" />
-        <p>Philippine Quality Award</p>
-      </div>
-    </aside>
-    <aside>
-      <ul>
-        <li>
-          <a href=""> Home</a>
-          <a href=""> Applicants</a>
-          <a href=""> Accessories</a>
-          <a href=""> Resource</a>
-          <a href=""> About PQA</a>
-        </li>
-      </ul>
-    </aside>
-    <aside>
-      npm run
-      <p>2022 PQA. All rights reserved</p>
-    </aside>
-  </footer>
+  
 </template>
 
 <script>
@@ -435,6 +328,7 @@ export default {
       news: [1, 2, 3, 4],
       articles: [1, 2],
       steps: [1, 2, 3, 4],
+      organizations: [1, 2, 3, 4,6],
     };
   },
   props: {
