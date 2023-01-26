@@ -313,15 +313,15 @@
     </div>
   </section>
 
-  <section class="px-20 lg:pt-8 lg:pb-24  bg-gray-100"   >
+  <section class="px-20 lg:py-32  bg-gray-100"   >
     <ul class="lg:grid lg:grid-cols-4">
       <li v-for="(n, index) in organizations" :key="n" :class="[index === 0 ? 'lg:col-span-4 ' : '']">
-        <div v-if="index===0" class="lg:flex lg:justify-center lg:items-center lg:flex-col lg:py-8 ">
+        <div v-if="index===0" class="lg:flex lg:justify-center lg:items-center   lg:p-10  lg:flex-col  ">
           <i class="fa-solid fa-award pqa-text-gold-4 lg:text-5xl lg:font-bold"></i>
           <p class="font-raleway lg:text-6xl lg:font-extrabold pqa-text-blue-1 lg:mt-2"> 1</p>
           <p class="font-raleway lg:text-2xl lg:font-extrabold pqa-text-blue-1"> Recipient Organization </p>
         </div>
-        <div  v-else class="lg:flex lg:justify-center lg:items-center lg:h-40 lg:flex-col lg:pt-10 lg:pb-8 lg:px-4  ">
+        <div  v-else class="lg:flex lg:justify-center lg:items-center  lg:flex-col   lg:p-6  lg:px-4  ">
           <p class="font-raleway lg:text-7xl lg:font-extrabold pqa-text-blue-1"> {{index}}</p>
           <p class="font-raleway lg:text-xl lg:font-extrabold pqa-text-blue-1 lg:text-center lg:leading-5 lg:mt-5"> Recognition for Profiency in Qality Management </p>
           <p class="uppercase lg:text-sm pqa-text-gold-4 lg:font-bold mt-4">level {{index+1}} </p>
@@ -330,11 +330,110 @@
     </ul>
   </section>
 
-  <footer class="h-72 pqa-blue-5">
+  <footer class="lg:px-20  pqa-blue-5">
 
+    <aside class="border-b border-gray-400 py-12 ">
+      <ul class=" lg:grid lg:grid-cols-3 lg:gap-20 text-white">  
+        <li>
+          <div class="">
+              <img src="/assets/pqa-logo.png" alt="" class="h-20 w-20">
+              <h1 class="lg:text-3xl lg:font-bold font-play-fair">Philippine Quality Award</h1>
+              <p class="lg:text-sm lg:leading-4 lg:mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus at nam, blanditiis iure saepe tempore numquam eaque reiciendis provident id suscipit modi iste molestias sint, ad, quod ex explicabo ratione!</p>
+              <p class="lg:text-sm pqa-text-gold-2 lg:mt-4 ">Read more   <i class="fa-solid fa-chevron-right lg:ml-2 lg:text-xs "></i> </p>
+              
+          </div>
+        </li>
+        <li>
+          <div class="">
+             
+              <p class="lg:font-bold lg:text-xl uppercase">Links</p>
+             <ul>
+              <li> <a href="#" class="block lg:text-sm "> Awardess and Recipient  </a></li>
+              <li> <a href="#" class="block lg:text-sm "> Compotititveness and Innovation Group  </a></li>
+              <li> <a href="#" class="block lg:text-sm "> Department of Trade amd Industy  </a></li>
+              <li> <a href="#" class="block lg:text-sm "> Downoad Forms  </a></li>
+              <li> <a href="#" class="block lg:text-sm "> Feedback Form  </a></li>
+              <li> <a href="#" class="block lg:text-sm "> Form and Conditions  </a></li>
+              <li> <a href="#" class="block lg:text-sm "> Privacy Policy  </a></li>
+             </ul>
+              
+          </div>
+        </li>
+        <li>
+          <div class="">
+             
+            <p class="lg:font-bold lg:text-xl uppercase">Contact</p>
+             <ul>
+              <p class="lg:text-sm"> z/f  HFGV Building 305</p>
+              <p class="lg:text-sm"> Son Git J. Putat Avevnue 3z00,</p>
+              <p class="lg:text-sm mt-4"> Email pqa@dti.@gov.ph</p>
+             </ul>
+  
+             <ul class="text-white lg:flex py-2">
+              <li class="px-2">
+                <img class="lg:h-6 lg:w-6" src="/assets/fb-logo.svg" alt="" />
+              </li>
+              <li class="px-2">
+                <img class="lg:h-6 lg:w-6" src="/assets/twitter-logo.svg" alt="" />
+              </li>
+              <li class="px-2">
+                <img class="lg:h-6 lg:w-6" src="/assets/indeed-logo.svg" alt="" />
+              </li>
+            </ul>
+              
+          </div>
+        </li>
+        
+      </ul>
+  
 
-    
+    </aside>
 
+    <aside class=" py-12">
+      <ul class=" lg:grid lg:grid-cols-3 lg:gap-20 text-white">  
+        
+        <li>
+          <div class="">
+             
+          
+            <h1 class="lg:text-2xl lg:font-bold font-raleway ">Republic of the Philippines</h1>
+            <p class="lg:text-sm lg:leading-4 lg:mt-2">Lorem ipsum do Lorem ipsum dolor sit amet consectetur, adipisicing elit.ar</p>
+          
+              
+          </div>
+        </li>
+
+        <li>
+          <div class="">
+             
+              <p class="lg:font-bold lg:text-xl uppercase">About GOVPH</p>
+              <p class="lg:text-sm lg:leading-4 lg:mt-2">Lorem ipsum do Lorem ipsum dolor sit amet consectetur, adipisicing elit.ar</p>
+              <ul class="mt-6">
+                <li> <a href="#" class="block lg:text-sm ">GOVPH  </a></li>
+                <li> <a href="#" class="block lg:text-sm "> Open Data Portal  </a></li>
+                <li> <a href="#" class="block lg:text-sm "> Offical Website  </a></li>
+               </ul>
+          </div>
+        </li>
+        <li>
+          <div class="">
+             
+              <p class="lg:font-bold lg:text-xl uppercase">Goverment Link</p>
+              <ul class="">
+                <li> <a href="#" class="block lg:text-sm  mt-1 "> Office of the President </a></li>
+                <li> <a href="#" class="block lg:text-sm  mt-1 "> Office of the Vice President  </a></li>
+                <li> <a href="#" class="block lg:text-sm  mt-1 "> Senate of the Philippines</a></li>
+                <li> <a href="#" class="block lg:text-sm  mt-1 "> House of the Presentatices</a></li>
+                <li> <a href="#" class="block lg:text-sm  mt-1 "> Supreme Court</a></li>
+                <li> <a href="#" class="block lg:text-sm  mt-1 "> Court of Appleals</a></li>
+                <li> <a href="#" class="block lg:text-sm  mt-1 "> Sandiganbayan</a></li>
+               </ul>
+          </div>
+        </li>
+      </ul>
+
+    </aside>
+   
   </footer>
   
 </template>
