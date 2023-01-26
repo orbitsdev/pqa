@@ -150,7 +150,7 @@
 
         <v-carousel-item src="/assets/cover1.png" cover></v-carousel-item>
       </v-carousel>
-      <div class="h-4"></div>
+      <div class="lg:h1"></div>
     </aside>
     <aside
       class="lg:bg-white lg:shadow-md pqa-border-bottom lg:border-b-2 lg:absolute lg:inset-x-0 lg:bottom-0 lg:mx-20 lg:mb-0 z-20"
