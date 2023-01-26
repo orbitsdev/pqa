@@ -281,8 +281,8 @@
           
       </aside>
       <aside class=" col-span-4   ">
-        <ul class="lg:px-3">
-          <li class="lg:mb-2  px-5 py-2 rounded  ">
+        <ul class="">
+          <li class="lg:mb-2  pl-6 py-2 rounded  ">
             <div>
               <div class="lg:mb-3">
 
@@ -295,7 +295,7 @@
               </div>
             </div>
           </li>
-          <li class="lg:mb-2  px-5 py-2 rounded   ">
+          <li class="lg:mb-2  pl-6 py-2 rounded   ">
             <div>
               <div class="lg:mb-3">
 
@@ -313,11 +313,29 @@
     </div>
   </section>
 
-  <section>
-    <ul>
-      <li></li>
+  <section class="px-20 lg:pt-8 lg:pb-24  bg-gray-100"   >
+    <ul class="lg:grid lg:grid-cols-4">
+      <li v-for="(n, index) in organizations" :key="n" :class="[index === 0 ? 'lg:col-span-4 ' : '']">
+        <div v-if="index===0" class="lg:flex lg:justify-center lg:items-center lg:flex-col lg:py-8 ">
+          <i class="fa-solid fa-award pqa-text-gold-4 lg:text-5xl lg:font-bold"></i>
+          <p class="font-raleway lg:text-6xl lg:font-extrabold pqa-text-blue-1 lg:mt-2"> 1</p>
+          <p class="font-raleway lg:text-2xl lg:font-extrabold pqa-text-blue-1"> Recipient Organization </p>
+        </div>
+        <div  v-else class="lg:flex lg:justify-center lg:items-center lg:h-40 lg:flex-col lg:pt-10 lg:pb-8 lg:px-4  ">
+          <p class="font-raleway lg:text-7xl lg:font-extrabold pqa-text-blue-1"> {{index}}</p>
+          <p class="font-raleway lg:text-xl lg:font-extrabold pqa-text-blue-1 lg:text-center lg:leading-5 lg:mt-5"> Recognition for Profiency in Qality Management </p>
+          <p class="uppercase lg:text-sm pqa-text-gold-4 lg:font-bold mt-4">level {{index+1}} </p>
+        </div>
+      </li>
     </ul>
   </section>
+
+  <footer class="h-72 pqa-blue-5">
+
+
+    
+
+  </footer>
   
 </template>
 

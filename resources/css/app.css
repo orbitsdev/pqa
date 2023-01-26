@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 
+.pqa-blue-5{
+    background-image: linear-gradient(to bottom right,#05224A , #05224A ,#022349, #022349);
+
+}
 .pqa-blue-1{
-    background: #05224A !important;
+
     background: #05224A !important;
 }
 
