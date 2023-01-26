@@ -1,5 +1,11 @@
 <template>
   <!-- NAVIGATION -->
+
+  <!-- <seciton> 
+      <aside>
+          <img src="/assets/pqa-log.png" alt="">
+      </aside>    
+  </seciton> -->
   <section class="z-10 pqa-blue-1 px-20 relative">
     <aside class="">
       <ul class="text-white flex justify-end items-center lg:py-4">
@@ -152,21 +158,21 @@
       <ul class="lg:flex lg:justify-around">
         <li v-for="step in steps" :key="step">
           <div
-            class="lg:py-6 lg:px-12 lg:flex lg:justify-center lg:flex-col lg:items-center"
+            class="lg:py-6  lg:flex lg:justify-center lg:flex-col lg:items-center"
           >
             <dd class="lg:text-3xl pqa-text-blue-2 lg:font-extrabold">
               <i class="fa-regular fa-newspaper"></i>
             </dd>
-            <p class="uppercase lg:font-extrabold pqa-text-blue-2">Apply</p>
+            <p class="font-raleway lg:mt-2 uppercase lg:font-extrabold lg:text-2xl pqa-text-blue-2">Apply</p>
             <!-- <p class="uppercase mt-6 text-lg font-semibold leading-8 tracking-tight pqa-text-blue-2">Transfers are instant</p> -->
-            <p class="uppercase lg:text-sm lg:font-medium lg:text-center">
-              For Assesment Cycle This this the department
+            <p class="font-ralewa uppercase lg:text-lg lg:leading-5 lg:font-medium lg:text-center">
+              For Assesment Cycle
             </p>
             <button
-              class="lg:mt-4 pqa-button-hover lg:py-1 lg:px-4 pqa-text-blue-3 lg:text-white"
+              class="lg:mt-2 pqa-button-hover lg:text-base lg:py-1 lg:px-4 pqa-text-blue-3  lg:text-white"
             >
-              <span> More Details </span>
-              <i class="fa-solid fa-chevron-right lg:ml-2"></i>
+              <span> See Details </span>
+              <i class="fa-solid fa-chevron-right lg:ml-1 lg:text-xs"></i>
             </button>
           </div>
         </li>
@@ -188,7 +194,7 @@
               <GoldButton> See all news </GoldButton>
             </div>
           </aside>
-          <aside class="mb-6">
+          <aside class="mb-10">
             <ul class="lg:grid lg:grid-cols-3 xl:grid-cols-4 lg:gap-x-2  xl:gap-x-2 ">
               <li class="rounded shadow lg:p-2 lg:h-72 lg:overflow-hidden relative" v-for="n in news" :key="n">
                 <div class="">
@@ -304,7 +310,7 @@
                 </TextWithBottomBorder>
               </div>
               <div class="lg:grid-col-3   ">
-                <img src="/assets/cover1.png" alt="" class="lg:h-40 w-full">
+                <img src="/assets/pqa-channel.png" alt="" class="lg:h-40 w-full">
               </div>
             </div>
           </li>
@@ -330,7 +336,7 @@
     </ul>
   </section>
 
-  <footer class="lg:px-20  pqa-blue-5">
+  <footer class="lg:px-20  pqa-blue-5 relative">
 
     <aside class="border-b border-gray-400 py-12 ">
       <ul class=" lg:grid lg:grid-cols-3 lg:gap-20 text-white">  
@@ -389,7 +395,7 @@
 
     </aside>
 
-    <aside class=" py-12">
+    <aside class="py-12 ">
       <ul class=" lg:grid lg:grid-cols-3 lg:gap-20 text-white">  
         
         <li>
@@ -433,7 +439,10 @@
       </ul>
 
     </aside>
-   
+<!-- <div class="lg:absolute lg:left-10 lg:bottom-0 -z-0">
+  <img src="/assets/republic.png" alt="" class="lg:h-60 lg:2-60 ">
+</div>
+     -->
   </footer>
   
 </template>
