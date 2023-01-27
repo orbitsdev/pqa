@@ -62,84 +62,84 @@
           </ul>
       </aside>
   </seciton> -->
-  <section class="z-10 pqa-blue-1 px-20 relative">
+  <section class="z-10 pqa-blue-1 md:px-10 lg:px-20 relative">
     <aside class="">
-      <ul class="text-white flex justify-end items-center lg:py-4">
-        <li class="lg:ml-4">
-          <img class="lg:h-6 lg:w-6" src="/assets/fb-logo.svg" alt="" />
+      <ul class="text-white flex justify-end items-center md:py-3 lg:py-4">
+        <li class="md:ml-3 lg:ml-4">
+          <img class="md:h-5 md:w-5  lg:h-6 lg:w-6" src="/assets/fb-logo.svg" alt="" />
         </li>
-        <li class="lg:ml-4">
-          <img class="lg:h-6 lg:w-6" src="/assets/twitter-logo.svg" alt="" />
+        <li class="md:ml-3 lg:ml-4">
+          <img class="md:h-5 md:w-5  lg:h-6 lg:w-6" src="/assets/twitter-logo.svg" alt="" />
         </li>
-        <li class="lg:ml-4">
-          <img class="lg:h-6 lg:w-6" src="/assets/indeed-logo.svg" alt="" />
+        <li class="md:ml-3 lg:ml-4">
+          <img class="md:h-5 md:w-5  lg:h-6 lg:w-6" src="/assets/indeed-logo.svg" alt="" />
         </li>
       </ul>
     </aside>
 
     <aside class="pqa-blue-linear flex justify-between items-center shadow">
-      <p class="font-raleway text-white font-play-fair lg:text-xl lg:font-bold lg:ml-20">
+      <p class="font-raleway text-white font-play-fair md:text-base md:font-bold  lg:text-xl lg:font-bold lg:ml-20">
       GOVEPH
       </p>
       <ul class="flex items-center">
         <li
-          class="font-raleway text-white uppercase lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
+          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
         >
           home
         </li>
         <li
-          class="font-raleway text-white uppercase lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text relative"
+          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text relative"
         >
           <span> applicant </span>
           <i class="fa-solid fa-chevron-down ml-1"></i>
-          <ul class="absolute pqa-blue-2 top-0 left-0 right-0 lg:mt-11 w-full rounded">
-            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
-            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
-            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
-            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
+          <ul class="absolute pqa-blue-2 top-0 left-0 right-0 md:mt-9 lg:mt-11 w-full ">
+            <li class=" md:text-xs py-2 px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
+            <li class=" md:text-xs py-2 px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
+            <li class=" md:text-xs py-2 px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
+            <li class=" md:text-xs py-2 px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
           </ul>
         </li>
         <li
-          class="font-raleway text-white uppercase lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text relative"
+          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text relative"
         >
           <span> accessors </span>
           <i class="fa-solid fa-chevron-down ml-1"></i>
-          <ul class="absolute pqa-blue-2 top-0 left-0 right-0 lg:mt-11 w-full rounded">
-            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
-            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
-            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
-            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
+          <ul class="absolute pqa-blue-2 top-0 left-0 right-0 md:mt-9 lg:mt-11 w-full ">
+            <li class=" md:text-xs py-2 px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
+            <li class=" md:text-xs py-2 px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
+            <li class=" md:text-xs py-2 px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
+            <li class=" md:text-xs py-2 px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
           </ul>
         </li>
         <li
-          class="font-raleway text-white uppercase lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
+          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
         >
           resources
         </li>
         <li
-          class="font-raleway text-white uppercase lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text relative"
+          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text relative"
         >
           <span> about pqa </span>
           <i class="fa-solid fa-chevron-down ml-1"></i>
-          <ul class="absolute pqa-blue-2 top-0 left-0 right-0 lg:mt-11 w-full rounded">
-            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
-            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
-            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
-            <li class="lg:py-2 lg:px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
+          <ul class="absolute pqa-blue-2 top-0 left-0 right-0 md:mt-9 lg:mt-11 w-full ">
+            <li class=" md:text-xs py-2 px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
+            <li class=" md:text-xs py-2 px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
+            <li class=" md:text-xs py-2 px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
+            <li class=" md:text-xs py-2 px-2 lg:text-sm capitalize pqa-nav-text">Option 1</li>
           </ul>
         </li>
         <li
-          class="font-raleway text-white uppercase lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
+          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
         >
           fqa
         </li>
         <li
-          class="font-raleway text-white uppercase lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
+          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
         >
           contact
         </li>
         <li
-          class="font-raleway text-white uppercase lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
+          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -147,7 +147,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-5 h-5 text-white"
+            class="md:h-5 md:w-4 lg:w-5 lg:h-5 text-white"
           >
             <path
               stroke-linecap="round"
@@ -157,24 +157,25 @@
           </svg>
         </li>
         <li
-        class="font-raleway text-white uppercase lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
+        class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
       >
         Login
       </li>
       </ul>
     </aside>
 
-    <aside class="bg-white inline-block absolute lg:left-15 lg:top-0 lg:bottom-0 lg:py-2">
+    <!-- <aside class="bg-white inline-block absolute lg:left-15 lg:top-0 lg:bottom-0 lg:py-2">
       <div class="flex items-center justify-center flex-col">
         <img src="/assets/pqa-logo.png" alt="" class="lg:h-16 lg:w-16" />
         <p class="uppercase font-bold font-play-fair lg:text-sm">pqa</p>
       </div>
     </aside>
+     -->
   </section>
 
   <!-- CAROSEL -->
 
-  <section class="lg:bg-white lg:pb-40 lg:relative">
+  <section class="lg:bg-white md:pb-20 lg:pb-40 relative">
     <aside class="bg-red">
       <v-carousel
         hide-delimiters
@@ -213,24 +214,26 @@
       </v-carousel>
       <div class="lg:h1"></div>
     </aside>
+
+    <!-- appy in cclient cannot be absolute -->
     <aside
-      class="lg:bg-white lg:shadow-md pqa-border-bottom lg:border-b-2 lg:absolute lg:inset-x-0 lg:bottom-0 lg:mx-20 lg:mb-0 z-20"
+      class="bg-white shadow-md pqa-border-bottom  border-b-2 md:mx-10 md:absolute md:inset-x-0  md:bottom-0 lg:absolute lg:inset-x-0 lg:bottom-0 lg:mx-20 lg:mb-0 z-20"
     >
-      <ul class="lg:flex lg:justify-around">
+      <ul class="grid md:grid-cols-2 lg:grid-cols-4 gap-2 ">
         <li v-for="step in steps" :key="step">
           <div
-            class="lg:py-6  lg:flex lg:justify-center lg:flex-col lg:items-center"
+            class="  md:py-4 lg:py-6 md:px-2 lg:px-4  flex flex-col items-center justify-center"
           >
             <dd class="lg:text-3xl pqa-text-blue-2 lg:font-extrabold">
               <i class="fa-regular fa-newspaper"></i>
             </dd>
-            <p class="font-raleway lg:mt-2 uppercase lg:font-extrabold lg:text-2xl pqa-text-blue-2">Apply</p>
+            <p class="font-raleway md:mt-1 lg:mt-2 uppercase font-extrabold md:lg lg:text-2xl pqa-text-blue-2">Apply</p>
             <!-- <p class="uppercase mt-6 text-lg font-semibold leading-8 tracking-tight pqa-text-blue-2">Transfers are instant</p> -->
-            <p class="font-ralewa uppercase lg:text-lg lg:leading-5 lg:font-medium lg:text-center">
-              For Assesment Cycle
+            <p class="font-ralewa uppercase md:text-sm lg:text-lg lg:leading-5 lg:font-medium lg:text-center">
+              For Assesment Cycle Lorem ipsum dolor sit amet consectetur adipisic
             </p>
             <button
-              class="lg:mt-2 pqa-button-hover lg:text-base lg:py-1 lg:px-4 pqa-text-blue-3  lg:text-white"
+              class="md:mt-1 lg:mt-2 pqa-button-hover md:text-sm lg:text-base py-1 md:px-2 lg:px-4 pqa-text-blue-3 text-white"
             >
               <span> See Details </span>
               <i class="fa-solid fa-chevron-right lg:ml-1 lg:text-xs"></i>
