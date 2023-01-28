@@ -6,6 +6,12 @@ import GoldButton from './components/GoldButton.vue';
 import TextWithBottomBorder from './components/TextWithBottomBorder.vue';
 import NewsButton from './components/NewsButton.vue';
 import AnimatedMenuIcon from './components/AnimatedMenuIcon.vue';
+import StepCard from './components/StepCard.vue';
+import NewsCard from './components/NewsCard.vue';
+import ArticleCard from './components/ArticleCard.vue';
+import TitleAndButton from './components/TitleAndButton.vue';
+import SocialCard from './components/SocialCard.vue';
+import OrganizationCard from './components/OrganizationCard.vue';
 
 
 
@@ -23,6 +29,12 @@ createInertiaApp({
       .component('TextWithBottomBorder', TextWithBottomBorder)
       .component('NewsButton', NewsButton)
       .component('AnimatedMenuIcon', AnimatedMenuIcon)
+      .component('StepCard', StepCard)
+      .component('NewsCard', NewsCard)
+      .component('ArticleCard', ArticleCard)
+      .component('TitleAndButton', TitleAndButton)
+      .component('SocialCard', SocialCard)
+      .component('OrganizationCard', OrganizationCard)
       .mount(el)
   },
 });

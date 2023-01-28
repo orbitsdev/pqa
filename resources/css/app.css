@@ -70,6 +70,15 @@ ul.absolute {
     background: #093066;
 }
 
+.pqa-blue-button-1{
+    background: #093066;
+
+}
+.pqa-blue-button-1:hover{
+    background: #1653a8;
+
+}
+
 .pqa-blue-2{
     
     background: #033A85;

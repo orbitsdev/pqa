@@ -1,6 +1,6 @@
 <template>
 
-    <button class=" z-10 lg:px-2 lg:my-2 lg:py-1 lg:text-xs lg:w-full pqa-blue-1 lg:rounded lg:text-white  cursor-pointer" ><slot> Click Me</slot> </button>
+    <button class=" z-10  px-2 my-2 md:py-1 lg:py-2 md:text-sm lg:text-base hover:scale-95 lg:transition-all w-full   pqa-blue-button-1 rounded text-white  cursor-pointer" ><slot> Click Me</slot> </button>
 
 </template>
 
