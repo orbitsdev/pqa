@@ -5,6 +5,7 @@ import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import GoldButton from './components/GoldButton.vue';
 import TextWithBottomBorder from './components/TextWithBottomBorder.vue';
 import NewsButton from './components/NewsButton.vue';
+import AnimatedMenuIcon from './components/AnimatedMenuIcon.vue';
 
 
 
@@ -21,6 +22,7 @@ createInertiaApp({
       .component('GoldButton', GoldButton)
       .component('TextWithBottomBorder', TextWithBottomBorder)
       .component('NewsButton', NewsButton)
+      .component('AnimatedMenuIcon', AnimatedMenuIcon)
       .mount(el)
   },
 });

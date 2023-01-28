@@ -1,7 +1,7 @@
 <template>
-  <!-- NAVIGATION -->
+  <!-- NAVIGON -->
 
-  <!-- <seciton class="lg:px-20 lg:flex lg:justify-between lg:items-center lg:py-2"> 
+  <!-- <seciton class="lg:px-20 md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-center lg:py-2"> 
       <aside class="lg:flex lg:items-center">
           <img src="/assets/pqa-logo.png" alt="" class="lg:h-16 lg:w-16 lg:mr-6">
           <div class="lg:flex lg:items-center ">
@@ -62,33 +62,33 @@
           </ul>
       </aside>
   </seciton> -->
-  <section class="z-10 pqa-blue-1 md:px-10 lg:px-20 relative">
+  <section class="z-10 pqa-blue-1 md:px-6 lg:px-16 relative">
     <aside class="">
       <ul class="text-white flex justify-end items-center md:py-3 lg:py-4">
-        <li class="md:ml-3 lg:ml-4">
+        <li class="md:px-2 lg:px-3">
           <img class="md:h-5 md:w-5  lg:h-6 lg:w-6" src="/assets/fb-logo.svg" alt="" />
         </li>
-        <li class="md:ml-3 lg:ml-4">
+        <li class="md:px-2 lg:px-3">
           <img class="md:h-5 md:w-5  lg:h-6 lg:w-6" src="/assets/twitter-logo.svg" alt="" />
         </li>
-        <li class="md:ml-3 lg:ml-4">
+        <li class="md:px-2 lg:px-3">
           <img class="md:h-5 md:w-5  lg:h-6 lg:w-6" src="/assets/indeed-logo.svg" alt="" />
         </li>
       </ul>
     </aside>
 
     <aside class="pqa-blue-linear flex justify-between items-center shadow">
-      <p class="font-raleway text-white font-play-fair md:text-base md:font-bold  lg:text-xl lg:font-bold lg:ml-20">
+      <p class="font-raleway text-white font-play-fair md:text-base  md:font-bold  md:ml-16 lg:text-xl lg:font-bold lg:ml-24">
       GOVEPH
       </p>
       <ul class="flex items-center">
         <li
-          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
+          class="md:hidden lg:block font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
         >
           home
         </li>
         <li
-          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text relative"
+          class="md:hidden lg:block font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text relative"
         >
           <span> applicant </span>
           <i class="fa-solid fa-chevron-down ml-1"></i>
@@ -100,7 +100,7 @@
           </ul>
         </li>
         <li
-          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text relative"
+          class="md:hidden lg:block font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text relative"
         >
           <span> accessors </span>
           <i class="fa-solid fa-chevron-down ml-1"></i>
@@ -112,12 +112,12 @@
           </ul>
         </li>
         <li
-          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
+          class="md:hidden lg:block font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
         >
           resources
         </li>
         <li
-          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text relative"
+          class="md:hidden lg:block font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text relative"
         >
           <span> about pqa </span>
           <i class="fa-solid fa-chevron-down ml-1"></i>
@@ -129,17 +129,17 @@
           </ul>
         </li>
         <li
-          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
+          class="md:hidden lg:block font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
         >
           fqa
         </li>
         <li
-          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
+          class="md:hidden lg:block font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
         >
           contact
         </li>
         <li
-          class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
+          class="lg:block font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -154,35 +154,41 @@
               stroke-linejoin="round"
               d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
             />
-          </svg>
+        </svg>
         </li>
         <li
-        class="font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
-      >
+        class="md:hidden lg:block font-raleway text-white uppercase md:text-xs md:py-3 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
+        >
         Login
+      </li>
+      <li
+        @click="isMenuOpen = !isMenuOpen"
+        class="md:px-2 lg:hidden font-raleway text-white uppercase md:text-xs md:py-2 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
+      >
+             <AnimatedMenuIcon :isOpen="isMenuOpen"/>
       </li>
       </ul>
     </aside>
 
-    <!-- <aside class="bg-white inline-block absolute lg:left-15 lg:top-0 lg:bottom-0 lg:py-2">
+    <aside class="bg-white inline-block absolute md:py-1 md:top-0 lg:left-20 lg:top-0 lg:bottom-0 lg:py-2">
       <div class="flex items-center justify-center flex-col">
-        <img src="/assets/pqa-logo.png" alt="" class="lg:h-16 lg:w-16" />
+        <img src="/assets/pqa-logo.png" alt="" class="md:h-14 md:w-14 lg:h-16 lg:w-16" />
         <p class="uppercase font-bold font-play-fair lg:text-sm">pqa</p>
       </div>
     </aside>
-     -->
+    
   </section>
 
   <!-- CAROSEL -->
 
-  <section class="lg:bg-white md:pb-20 lg:pb-40 relative">
+  <section class="lg:bg-white  md:pb-6 lg:pb-40 relative">
     <aside class="bg-red">
       <v-carousel
         hide-delimiters
         :color="'#ffff'"
         delimiter-icon="mdi-square"
         cycle
-        height="590"
+        class="md:h-96 lg:h-3/4 "
         show-arrows="hover"
       >
         <!-- <template v-slot:prev="{ props }">
@@ -208,18 +214,18 @@
 
         <v-carousel-item src="/assets/cover1.png" cover></v-carousel-item>
 
-        <v-carousel-item src="/assets/cover1.png" cover></v-carousel-item>
+        <v-carousel-item src="/assets/example4.png" cover></v-carousel-item>
 
-        <v-carousel-item src="/assets/cover1.png" cover></v-carousel-item>
+        <v-carousel-item src="/assets/example3.jpg" cover></v-carousel-item>
       </v-carousel>
       <div class="lg:h1"></div>
     </aside>
 
-    <!-- appy in cclient cannot be absolute -->
+    <!-- appy in cclient cannot be absolute  md:mx-10 md:absolute md:inset-x-0  md:bottom-0 lg:absolute lg:inset-x-0 lg:bottom-0  -->
     <aside
-      class="bg-white shadow-md pqa-border-bottom  border-b-2 md:mx-10 md:absolute md:inset-x-0  md:bottom-0 lg:absolute lg:inset-x-0 lg:bottom-0 lg:mx-20 lg:mb-0 z-20"
+      class="bg-white shadow-md pqa-border-bottom  border-b-2  md:mt-6 md:mx-10  lg:absolute lg:inset-x-0 lg:bottom-0 lg:mx-20 lg:mb-0 z-20"
     >
-      <ul class="grid md:grid-cols-2 lg:grid-cols-4 gap-2 ">
+      <ul class="grid md:grid-cols-4 lg:grid-cols-4 gap-2 ">
         <li v-for="step in steps" :key="step">
           <div
             class="  md:py-4 lg:py-6 md:px-2 lg:px-4  flex flex-col items-center justify-center"
@@ -229,11 +235,11 @@
             </dd>
             <p class="font-raleway md:mt-1 lg:mt-2 uppercase font-extrabold md:lg lg:text-2xl pqa-text-blue-2">Apply</p>
             <!-- <p class="uppercase mt-6 text-lg font-semibold leading-8 tracking-tight pqa-text-blue-2">Transfers are instant</p> -->
-            <p class="font-ralewa uppercase md:text-sm lg:text-lg lg:leading-5 lg:font-medium lg:text-center">
-              For Assesment Cycle Lorem ipsum dolor sit amet consectetur adipisic
+            <p class="font-ralewa uppercase md:text-xs lg:text-lg md:leading-4 lg:leading-5 lg:font-medium text-center">
+              For Assesment Cycle Lorem ipsum dolor s
             </p>
             <button
-              class="md:mt-1 lg:mt-2 pqa-button-hover md:text-sm lg:text-base py-1 md:px-2 lg:px-4 pqa-text-blue-3 text-white"
+              class="md:mt-2 lg:mt-2 pqa-button-hover md:text-xs lg:text-base py-1 md:px-2 lg:px-4 pqa-text-blue-3 text-white"
             >
               <span> See Details </span>
               <i class="fa-solid fa-chevron-right lg:ml-1 lg:text-xs"></i>
@@ -245,12 +251,12 @@
   </section>
   <!-- NEWS -->
 
-  <section class="lg:px-20 lg:mt-10">
-    <div class="lg:grid lg:grid-cols-12 lg:gap-8">
-      <aside class="col-span-8">
+  <section class="md:px-10 lg:px-20 lg:mt-10">
+    <div class=" grid grid-cols-12 md:gap-4  lg:gap-8">
+      <aside class="md:col-span-12 lg:col-span-8">
         <aside class=" ">
-          <aside class="lg:py-2 ">
-            <div class="lg:flex lg:justify-between lg:items-center">
+          <aside class="py-2 ">
+            <div class="md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-center">
               
               <TextWithBottomBorder>
                 News
@@ -258,30 +264,30 @@
               <GoldButton> See all news </GoldButton>
             </div>
           </aside>
-          <aside class="mb-10">
-            <ul class="lg:grid lg:grid-cols-3 xl:grid-cols-4 lg:gap-x-2  xl:gap-x-2 ">
-              <li class="rounded shadow lg:p-2 lg:h-72 lg:overflow-hidden relative" v-for="n in news" :key="n">
+          <aside class="md:mb-8 lg:mb-10">
+            <ul class="grid md:mt-4 md:grid-cols-4  xl:grid-cols-4 md:gap-x-2 lg:gap-x-2  xl:gap-x-6 ">
+              <li class=" rounded shadow md:h-60 lg:p-2 lg:h-72 overflow-hidden relative" v-for="n in news" :key="n">
                 <div class="">
                   <div class="">
-                    <img src="/assets/exampl2.png" alt="" class="w-full" />
+                    <img src="/assets/exampl2.png" alt="" class="md:h-32 w-full" />
                   </div>
                   <div
-                    class=" font-raleway lg:flex lg:text-xs lg:justify-between lg:items-center lg:py-2"
+                    class=" font-raleway flex md:text-xs md:px-1  lg:text-xs justify-between items-center md:py-1  lg:py-2"
                   >
                     <p
-                      class="lg:font-bold lg:p-1 lg:px-2 pqa-text-gold-4 lg:rounded-lg pqa-gold-4"
+                      class="lg:font-bold  lg:p-1 lg:px-2 pqa-text-gold-4  lg:rounded-lg pqa-gold-4"
                     >
                       News
                     </p>
-                    <p class="lg:text-xs">Monday | April 04, 2022</p>
+                    <p class="md:text-xs  lg:text-xs"> Monday | April 04, 2022 </p>
                   </div>
                   <div class="">
                     <p
-                    class="font-raleway lg:text-base lg:font-extrabold lg:leading-4 lg:my-1"
+                    class="font-raleway md:text-xs lg:text-base font-extrabold md:leading-3 lg:leading-4 lg:my-1"
                   >
                     DTI Lauds PQA Regional Champions.
                   </p>
-                  <p class="font-raleway lg:text-xs lg:leading-1 mt-2 ">
+                  <p class="font-raleway md:text-xs lg:text-xs lg:leading-1 mt-2 ">
                     In its bid to intensify the promotion of the PQA nationwide, the
                     Department of Trade and Industry (DTI) pushed for the advancement of
                     small and medium-sized enterprises (SMEs)
@@ -298,9 +304,9 @@
             </ul>
           </aside>
 
-          <aside class="  ">
-            <aside class="lg:py-2 ">
-              <div class="lg:flex lg:justify-between lg:items-center">
+          <aside class="">
+            <aside class="py-2 ">
+              <div class="md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-center">
                 <TextWithBottomBorder>
                   Articles
                 </TextWithBottomBorder>
@@ -308,11 +314,11 @@
               </div>
             </aside>
           </aside>
-          <aside>
+          <aside class="mt-4">
             <ul class="mt-2">
-              <li class="lg:py-4 lg:mb-6 lg:shadow-md lg:px-6 border lg:rounded-sm" v-for="n in articles" :key="n">
+              <li class="md:py-2 md:mb-4  md:px-4  lg:py-4 lg:mb-6 shadow-md lg:px-6 border rounded-sm" v-for="n in articles" :key="n">
                 <div class="">
-                  <p class="font-raleway lg:text-xs">Monday | April 04, 2022</p>
+                  <p class="font-raleway text-xs">Monday | April 04, 2022</p>
                   <p class="font-raleway lg:text-lg lg:font-bold lg:mt-2">
                     PQA Recipient Organizations (as of 2020)
                   </p>
@@ -350,7 +356,7 @@
 
           
       </aside>
-      <aside class=" col-span-4   ">
+      <aside class="md:hidden lg:block lg:col-span-4 ">
         <ul class="">
           <li class="lg:mb-2  pl-6 py-2 rounded  ">
             <div>
@@ -515,6 +521,7 @@
 export default {
   data() {
     return {
+      isMenuOpen: false,
       news: [1, 2, 3, 4],
       articles: [1, 2],
       steps: [1, 2, 3, 4],
