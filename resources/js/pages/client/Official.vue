@@ -1,7 +1,9 @@
 <template>
+  {{ isMenuOpen }}
+  <SlideBar :isOpen="isMenuOpen" />
   <!-- <DtiSection/> -->
 
-  <Nav />
+  <Nav @toggleMenu="isMenuOpen = !isMenuOpen" :isMenuOpen="isMenuOpen" />
 
   <!-- CAROSEL -->
 
@@ -119,8 +121,10 @@ import DtiSection from "./DtiSection.vue";
 import Nav from "./Nav.vue";
 import Footer from "./Footer.vue";
 import NewsSectionForMobile from "./NewsSectionForMobile.vue";
+import SlideBar from "../../components/SlideBar.vue";
 export default {
   components: {
+    SlideBar,
     DtiSection,
     Nav,
     Footer,
@@ -133,6 +137,7 @@ export default {
       articles: [1, 2],
       steps: [1, 2, 3, 4],
       organizations: [1, 2, 3, 4, 6],
+      
     };
   },
   props: {

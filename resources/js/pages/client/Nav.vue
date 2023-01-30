@@ -101,12 +101,12 @@
             >
             Login
           </li>
-          <li
-            @click="isMenuOpen = !isMenuOpen"
+          <button
+          @click="$emit('toggleMenu')"
             class="px-2 md:px-2 lg:hidden font-raleway text-white uppercase md:text-xs py-2  md:py-2 md:ml-3 lg:text-sm lg:ml-2 lg:py-4 lg:px-3 cursor-pointer pqa-nav-text"
           >
-                 <AnimatedMenuIcon :isOpen="isMenuOpen"/>
-          </li>
+                 <AnimatedMenuIcon   :isOpen="isMenuOpen"/>
+          </button>
           </ul>
         </aside>
     
@@ -122,11 +122,14 @@
 
 <script>
     export default {
-      data() {
-        return {
-            isMenuOpen: false
-        }
+      emits: ['toggleMenu'],
+      props: {
+        isMenuOpen: {
+          type: Boolean,
+          default: false,
+        },
       },
+      
     }
 </script>
 
