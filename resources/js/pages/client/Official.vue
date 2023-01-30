@@ -1,9 +1,8 @@
 <template>
-  {{ isMenuOpen }}
   <SlideBar :isOpen="isMenuOpen" />
   <!-- <DtiSection/> -->
 
-  <Nav @toggleMenu="isMenuOpen = !isMenuOpen" :isMenuOpen="isMenuOpen" />
+  <Nav @toggleMenu="isMenuOpen = !isMenuOpen" :isMenuOpen="isMenuOpen"  class="sticky lg:relative  top-0 "/>
 
   <!-- CAROSEL -->
 

@@ -2,7 +2,7 @@
 
 <template>
   <!-- <div class="py-2 sm:bg-red-400 md:bg-blue-400 lg:bg-purple-400 xl:bg-orange-400  ">  Yest</div> -->
-    <section class="z-10 pqa-blue-1 px-3  md:px-5  lg:px-15 xl:px-16 relative">
+    <section  class="z-10 pqa-blue-1 px-3  md:px-5  lg:px-15 xl:px-16 relative">
         <aside class="">
           <ul class="text-white flex justify-end items-center py-2 md:py-3 lg:py-4">
             <li class="px-1 md:px-2 lg:px-3">
@@ -17,7 +17,7 @@
           </ul>
         </aside>
     
-        <aside class="pqa-blue-linear flex justify-between items-center shadow">
+        <aside class="pqa-blue-linear flex justify-between items-center ">
           <p class="font-raleway text-white font-play-fair text-sm  md:text-lg ml-14 font-bold  md:ml-16 lg:text-xl lg:font-bold  lg:ml-24 xl:ml-16">
           GOVEPH
           </p>
