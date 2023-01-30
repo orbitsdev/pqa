@@ -2,7 +2,7 @@
 
 <template>
     <div
-    class="  md:py-4 lg:py-6 md:px-2 lg:px-4  flex flex-col items-center justify-center"
+    class="hidden md:py-4 lg:py-6 md:px-2 lg:px-4  md:flex flex-col items-center justify-center"
   >
     <dd class="lg:text-3xl pqa-text-blue-2 lg:font-extrabold">
       <i class="fa-regular fa-newspaper"></i>
@@ -16,9 +16,27 @@
       class="md:mt-2 lg:mt-2 pqa-button-hover md:text-xs lg:text-base py-1 md:px-2 lg:px-4 pqa-text-blue-3 text-white"
     >
       <span> See Details </span>
-      <i class="fa-solid fa-chevron-right lg:ml-1 lg:text-xs"></i>
+      <i class="fa-solid fa-chevron-right  lg:ml-1 lg:text-xs"></i>
     </button>
   </div>
+
+
+  <!-- for mobile -->
+  <!-- <div class="md:hidden p-2 mb-2 border shadow-sm grid grid-cols-12  rounded-lg">
+    <div class="col-span-2 flex justify-center">
+      <div class=" rounded-full  flex justify-center  items-center  bg-blue-50 h-10 w-10">
+        <i class="fa-regular fa-newspaper text-lg"></i>
+      </div>
+    </div>
+      
+    <div class=" col-span-10">
+      <p class="font-extrabold pqa-text-blue-2  text-sm">Apply</p>
+      <p class="text-xs leading-4 mt-1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis illo ad modi debitis saepe veritatis adipisci odit maxime, autem hic, 
+      </p>
+   
+    </div>
+  </div> -->
 </template>
 
 <script>
@@ -28,5 +46,6 @@
 </script>
 
 <style  scoped>
+
 
 </style>

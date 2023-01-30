@@ -1,12 +1,12 @@
 <template>
  
-    <div class="md:py-2 md:mb-4  md:px-4  lg:py-4 lg:mb-6 shadow-md lg:px-6 border rounded-sm">
+    <div class="py-2 px-2 md:py-2 md:mb-4  md:px-4  lg:py-4 lg:mb-6 shadow-md lg:px-6 border rounded-sm">
         <div class="">
           <p class="font-raleway text-xs">Monday | April 04, 2022</p>
-          <p class="font-raleway lg:text-lg lg:font-bold lg:mt-2">
+          <p class="font-raleway font-bold md:font-bold lg:text-lg lg:font-bold lg:mt-2">
             PQA Recipient Organizations (as of 2020)
           </p>
-          <p class="font-raleway lg:text-base lg:leading-1 lg:mt-2">
+          <p class="font-raleway text-xs mt-2  md:text-base lg:text-base lg:leading-1 lg:mt-2">
             In its bid to intensify the promotion of the PQA nationwide, the
             Department of Trade and Industry (DTI) pushed for the advancement of
             small and medium-sized enterprises (SMEs) in quality management as it
@@ -14,9 +14,9 @@
           </p>
 
           <button
-            class="lg:text-xs lg:flex lg:items-center lg:font-bold lg:mt-2 pqa-text-gold-4"
+            class=" text-xs flex items-center  mt-2 md:text-sm lg:text-sm  md:flex md:items-center  lg:flex lg:items-center lg:font-bold lg:mt-2 pqa-text-gold-4"
           >
-            <span class="lg:mr-2">Click to continue reading</span>
+            <span class="mr-2 md:mr-2 lg:mr-2">Click to continue reading</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

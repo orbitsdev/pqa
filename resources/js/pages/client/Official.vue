@@ -5,14 +5,14 @@
 
   <!-- CAROSEL -->
 
-  <section class="lg:bg-white md:pb-6 lg:pb-40 relative">
+  <section class="lg:bg-white  md:pb-6 lg:pb-40 relative">
     <aside class="bg-red">
       <v-carousel
         hide-delimiters
         :color="'#ffff'"
         delimiter-icon="mdi-square"
         cycle
-        class="md:h-96 lg:h-3/4"
+        class="h-60 md:h-96 lg:h-3/4"
         show-arrows="hover"
       >
         <!-- <template v-slot:prev="{ props }">
@@ -47,17 +47,17 @@
 
     <!-- appy in cclient cannot be absolute  md:mx-10 md:absolute md:inset-x-0  md:bottom-0 lg:absolute lg:inset-x-0 lg:bottom-0  -->
     <aside
-      class="bg-white shadow-md pqa-border-bottom border-b-2 md:mt-6 md:mx-10 lg:absolute lg:inset-x-0 lg:bottom-0 lg:mx-20 lg:mb-0 z-20"
+      class="bg-white shadow-md pqa-border-bottom md:border-b-2 md:mt-6 md:mx-10 lg:absolute lg:inset-x-0 lg:bottom-0 lg:mx-20 lg:mb-0 z-20"
     >
-      <ul class="grid md:grid-cols-4 lg:grid-cols-4 gap-2">
+      <ul class=" px-5 py-2 md:grid md:py-0 md:grid-cols-4 lg:grid-cols-4 gap-2">
         <StepCard v-for="step in steps" :key="step" />
       </ul>
     </aside>
   </section>
   <!-- NEWS -->
 
-  <section class="md:px-10 lg:px-20 lg:mt-10">
-    <div class="grid grid-cols-12 md:gap-4 lg:gap-8">
+  <section class="hidden  md:px-10 lg:px-20 lg:mt-10">
+    <div class=" md:grid grid-cols-12 md:gap-4 lg:gap-8">
       <aside class="md:col-span-12 lg:col-span-9">
         <aside class="">
           <TitleAndButton>
@@ -103,8 +103,10 @@
     </div>
   </section>
 
-  <section class="md:px-10  md:py-6 lg:px-20 lg:py-32 bg-gray-100">
-    <ul class="grid grid-cols-4">
+  <NewsSectionForMobile class="md:hidden"/>
+
+  <section class="py-8 px-5 md:px-10  md:py-6 lg:px-20 lg:py-32 bg-gray-100">
+    <ul class="grid grid-cols-2 md:grid md:grid-cols-4">
       <OrganizationCard :organizations="organizations" />
     </ul>
   </section>
@@ -116,11 +118,13 @@
 import DtiSection from "./DtiSection.vue";
 import Nav from "./Nav.vue";
 import Footer from "./Footer.vue";
+import NewsSectionForMobile from "./NewsSectionForMobile.vue";
 export default {
   components: {
     DtiSection,
     Nav,
     Footer,
+    NewsSectionForMobile
   },
   data() {
     return {
