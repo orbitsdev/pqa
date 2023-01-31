@@ -19,7 +19,7 @@
           <LogoutCard />
         </div>
       </div>
-      <main class="py-6 px-4">
+      <main class="py-6 px-4 pqa-gray-1 ">
         <!-- {{ $page.component }} -->
         <!-- ALL CONTENT WILL DISPLAY HERE -->
         <slot></slot>

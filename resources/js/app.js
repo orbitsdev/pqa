@@ -13,8 +13,10 @@ import TitleAndButton from './components/TitleAndButton.vue';
 import SocialCard from './components/SocialCard.vue';
 import OrganizationCard from './components/OrganizationCard.vue';
 import AnimatedAdminMenu from './components/AnimatedAdminMenu.vue';
+import PqaButton from './components/PqaButton.vue';
 import TestNav from './pages/TestNav.vue';
 import NavLink from './shared/NavLink.vue';
+import AdminTab from './shared/AdminTab.vue';
 
 
 
@@ -23,7 +25,7 @@ import vuetify from './plugins/vuetify';
 
 createInertiaApp({
   resolve: (name) => resolvePageComponent(`./pages/${name}.vue`, import.meta.glob('./pages/**/*.vue')),
-  progress: false,
+  progress: true,
   setup({ el, App, props, plugin }) {
     return createApp({ render: () => h(App, props,) })
     .mixin({methods: {route}})
@@ -42,6 +44,8 @@ createInertiaApp({
       .component('AnimatedAdminMenu', AnimatedAdminMenu)
       .component('TestNav', TestNav)
       .component('NavLink', NavLink)
+      .component('AdminTab', AdminTab)
+      .component('PqaButton', PqaButton)
       .mount(el)
   },
 });
