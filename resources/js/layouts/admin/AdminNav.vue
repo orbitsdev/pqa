@@ -13,7 +13,7 @@
           <div class="mt-5 flex flex-1 flex-col">
             <nav class="flex-1 space-y-1 px-2 pb-4">
               
-              <a href="#" class="pqa-gold-3 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+              <NavLink  :href="route('pqa.dashboard')" :active="$page.component === 'admin/Dashboard'"   >
                 <!-- Heroicon name: outline/home -->
 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 mr-3">
@@ -22,8 +22,8 @@
                   
                   
                 Dashboard
-              </a>
-              <a href="#" class=" text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+              </NavLink>
+              <NavLink  :href="route('pqa.event_management')" :active="$page.component === 'admin/EventManagement'">
                 <!-- Heroicon name: outline/home -->
 
               
@@ -34,8 +34,8 @@
                   
                   
                Event Management
-              </a>
-              <a href="#" class=" text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+              </NavLink>
+              <NavLink :href="route('pqa.about_pqa')" :active="$page.component === 'admin/AboutPQA'">
                 <!-- Heroicon name: outline/home -->
 
               
@@ -45,8 +45,8 @@
                   
                   
                   About PQA
-              </a>
-              <a href="#" class=" text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+              </NavLink>
+              <NavLink  :href="route('pqa.applicants')" :active="$page.component === 'admin/Applicants'">
                 <!-- Heroicon name: outline/home -->
 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 mr-3">
@@ -57,8 +57,8 @@
                 
                   
                  Applicants
-              </a>
-              <a href="#" class=" text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+              </NavLink>
+              <NavLink  :href="route('pqa.assessores')" :active="$page.component === 'admin/Assessores'">
                 <!-- Heroicon name: outline/home -->
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 mr-3">
                     <path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0118 9.375v9.375a3 3 0 003-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 00-.673-.05A3 3 0 0015 1.5h-1.5a3 3 0 00-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6zM13.5 3A1.5 1.5 0 0012 4.5h4.5A1.5 1.5 0 0015 3h-1.5z" clip-rule="evenodd" />
@@ -67,8 +67,8 @@
                   
                   
                 Assessores
-              </a>
-              <a href="#" class=" text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+              </NavLink>
+              <NavLink  :href="route('pqa.resources')" :active="$page.component === 'admin/Resources'">
                 <!-- Heroicon name: outline/home -->
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 mr-3">
                     <path d="M19.5 21a3 3 0 003-3v-4.5a3 3 0 00-3-3h-15a3 3 0 00-3 3V18a3 3 0 003 3h15zM1.5 10.146V6a3 3 0 013-3h5.379a2.25 2.25 0 011.59.659l2.122 2.121c.14.141.331.22.53.22H19.5a3 3 0 013 3v1.146A4.483 4.483 0 0019.5 9h-15a4.483 4.483 0 00-3 1.146z" />
@@ -76,9 +76,9 @@
                   
                   
                Resources
-              </a>
+              </NavLink>
     
-              <a href="#" class=" text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+              <NavLink   :href="route('pqa.news_and_articles')" :active="$page.component === 'admin/NewsAndArticles'">
                 <!-- Heroicon name: outline/home -->
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 mr-3">
                     <path fill-rule="evenodd" d="M4.125 3C3.089 3 2.25 3.84 2.25 4.875V18a3 3 0 003 3h15a3 3 0 01-3-3V4.875C17.25 3.839 16.41 3 15.375 3H4.125zM12 9.75a.75.75 0 000 1.5h1.5a.75.75 0 000-1.5H12zm-.75-2.25a.75.75 0 01.75-.75h1.5a.75.75 0 010 1.5H12a.75.75 0 01-.75-.75zM6 12.75a.75.75 0 000 1.5h7.5a.75.75 0 000-1.5H6zm-.75 3.75a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5H6a.75.75 0 01-.75-.75zM6 6.75a.75.75 0 00-.75.75v3c0 .414.336.75.75.75h3a.75.75 0 00.75-.75v-3A.75.75 0 009 6.75H6z" clip-rule="evenodd" />
@@ -87,8 +87,8 @@
                   
                   
               News & Articles 
-              </a>
-              <a href="#" class=" text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+              </NavLink>
+              <NavLink  :href="route('pqa.fqa')" :active="$page.component === 'admin/FQA'">
                 <!-- Heroicon name: outline/home -->
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 mr-3">
                     <path d="M4.913 2.658c2.075-.27 4.19-.408 6.337-.408 2.147 0 4.262.139 6.337.408 1.922.25 3.291 1.861 3.405 3.727a4.403 4.403 0 00-1.032-.211 50.89 50.89 0 00-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 002.433 3.984L7.28 21.53A.75.75 0 016 21v-4.03a48.527 48.527 0 01-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979z" />
@@ -98,8 +98,8 @@
                   
                   
               FQA
-              </a>
-              <a href="#" class=" text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+              </NavLink>
+              <NavLink  :href="route('pqa.contact_information')" :active="$page.component === 'admin/ContactInformation'">
                 <!-- Heroicon name: outline/home -->
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 mr-3">
                     <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
@@ -109,7 +109,7 @@
                   
                   
               Contact Information
-              </a>
+              </NavLink>
     
             
             </nav>
@@ -122,6 +122,7 @@
 
 <script>
     export default {
+
         props: {
             isOpen: {
                 type: Boolean,

@@ -1,8 +1,8 @@
 <template>
     <div :class="['menu h-6 w-6 py-0.5 flex flex-col justify-around cursor-pointer ', isOpen ? 'ani': ''  ]">
-            <div class="  bar bar-1  rounded h-0.5 pqa-blue-1 " ></div>
-            <div class="  bar bar-2  rounded h-0.5 pqa-blue-1 " ></div>
-            <div class="  bar bar-3  rounded h-0.5 pqa-blue-1 " ></div>
+            <div class="  bar bar-1  rounded-full h-0.5 pqa-blue-1 " ></div>
+            <div class="  bar bar-2  rounded-full h-0.5 pqa-blue-1 " ></div>
+            <div class="  bar bar-3  rounded-full h-0.5 pqa-blue-1 " ></div>
     </div>
 </template>
 
@@ -31,7 +31,7 @@
 } 
 
 .ani .bar-1 {
-    transform: translate( 0px, 5px ) rotate(45deg);
+    transform: translate( 0px, 4px ) rotate(45deg);
 }
 .ani .bar-3 {
     transform: translate( 0px, -5px ) rotate(-45deg);

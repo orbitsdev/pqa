@@ -1,11 +1,11 @@
 <template>
     <div>
-        DashBoard
+        Resources
     </div>
 </template>
 
 <script>
-   import AdminLayout from '../../layouts/admin/AdminLayout.vue';
+import AdminLayout from '../../layouts/admin/AdminLayout.vue';
     export default {
         
         layout: AdminLayout,

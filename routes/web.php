@@ -23,19 +23,19 @@ use Illuminate\Support\Facades\Route;
 // });
 
 
-// Route::get('/', [LandingPageController::class , 'index'])->name('client.index');
-Route::get('/', function(){
-    return Inertia::render('Test');
-});
-Route::get('/page-1', function(){
-    return Inertia::render('Page1');
-});
-Route::get('/page-2', function(){
-    return Inertia::render('Page2');
-});
-Route::get('/page-3', function(){
-    return Inertia::render('Page3');
-});
+Route::get('/', [LandingPageController::class , 'index'])->name('client.index');
+// Route::get('/', function(){
+//     return Inertia::render('Test');
+// });
+// Route::get('/page-1', function(){
+//     return Inertia::render('Page1');
+// });
+// Route::get('/page-2', function(){
+//     return Inertia::render('Page2');
+// });
+// Route::get('/page-3', function(){
+//     return Inertia::render('Page3');
+// });
 
 
 Route::group(
@@ -46,6 +46,15 @@ Route::group(
     function(){
         Route::get('/', [AdminController::class,'index'])->name('index');
         Route::get('/dashboard', [AdminController::class,'dashboard'])->name('dashboard');
+        Route::get('/about-pqa', [AdminController::class,'about_pqa'])->name('about_pqa');
+        Route::get('/event-management', [AdminController::class,'event_management'])->name('event_management');
+        Route::get('/about-pqa', [AdminController::class,'about_pqa'])->name('about_pqa');
+        Route::get('/applicants', [AdminController::class,'applicants'])->name('applicants');
+        Route::get('/assessores', [AdminController::class,'assessores'])->name('assessores');
+        Route::get('/resources', [AdminController::class,'resources'])->name('resources');
+        Route::get('/news-and-articles', [AdminController::class,'news_and_articles'])->name('news_and_articles');
+        Route::get('/frequently-ask', [AdminController::class,'fqa'])->name('fqa');
+        Route::get('/contact-information', [AdminController::class,'contact_information'])->name('contact_information');
 
 });
 // Route::group(
