@@ -55,9 +55,11 @@
       </ul>
     </aside>
   </section>
+
+
   <!-- NEWS -->
 
-  <section class="hidden  md:px-10 lg:px-20 lg:mt-10">
+  <section class="hidden md:block md:px-10 lg:px-20 lg:mt-10">
     <div class=" md:grid grid-cols-12 md:gap-4 lg:gap-8">
       <aside class="md:col-span-12 lg:col-span-9">
         <aside class="">

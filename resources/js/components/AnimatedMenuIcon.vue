@@ -42,7 +42,7 @@
   }
   
   .menu-icon.active .bar:first-child {
-    transform:  translate(0px,8px)  rotate(45deg);
+    transform:  translate(0px, 7px)  rotate(45deg);
   }
   
   .menu-icon.active .bar:nth-child(2) {
@@ -50,6 +50,6 @@
   }
   
   .menu-icon.active .bar:last-child {
-    transform: translate(0px,-8px) rotate(-45deg);
+    transform: translate(0px,-7px) rotate(-45deg);
   }
 </style>

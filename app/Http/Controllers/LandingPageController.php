@@ -10,7 +10,7 @@ class LandingPageController extends Controller
 
 
         public function index(){
-            return inertia('client/Official');
+            return inertia('client/Index');
         }
 
 }

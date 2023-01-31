@@ -12,6 +12,7 @@ import ArticleCard from './components/ArticleCard.vue';
 import TitleAndButton from './components/TitleAndButton.vue';
 import SocialCard from './components/SocialCard.vue';
 import OrganizationCard from './components/OrganizationCard.vue';
+import AnimatedAdminMenu from './components/AnimatedAdminMenu.vue';
 
 
 
@@ -35,6 +36,7 @@ createInertiaApp({
       .component('TitleAndButton', TitleAndButton)
       .component('SocialCard', SocialCard)
       .component('OrganizationCard', OrganizationCard)
+      .component('AnimatedAdminMenu', AnimatedAdminMenu)
       .mount(el)
   },
 });

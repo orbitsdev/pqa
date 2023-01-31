@@ -116,6 +116,10 @@ ul.absolute {
 .pqa-gold-2 {
     background-color: #FDD76C;
 }
+.pqa-gold-3 {
+    background-color: #C18B03;
+}
+
 .pqa-gold-linear {
 
     background-image: linear-gradient(to right,#B79149 , #cca356 ,#856703, #B79149);

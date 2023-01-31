@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LandingPageController;
 use Inertia\Inertia;
 use Illuminate\Support\Facades\Route;
@@ -21,7 +22,38 @@ use Illuminate\Support\Facades\Route;
 //     ]);
 // });
 
+
 Route::get('/', [LandingPageController::class , 'index'])->name('client.index');
+Route::get('/test', function(){
+    return Inertia::render('admin/Dashboard');
+});
+
+
+Route::group(
+    [
+        'prefix' => 'pqa/admin', 
+        'as' => 'pqa.'
+    ],
+    function(){
+        Route::get('/', [AdminController::class,'index'])->name('index');
+        Route::get('/dashboard', [AdminController::class,'dashboard'])->name('dashboard');
+
+});
+// Route::group(
+//     [
+//         'prefix' => 'pqa', 'as' => 'pqa.'
+//     ],
+//     function(){
+
+// });
+// Route::group([
+//     'prefix' => 'pqa/admin', 'as' => 'admin.'
+// ], function(){
+//     Route::get('/', [AdminController::class , 'index'])->name('index');
+
+// });
+
+
 Route::get('/contact', function(){
     return Inertia::render('client/Contact');
 });
