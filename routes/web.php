@@ -23,9 +23,18 @@ use Illuminate\Support\Facades\Route;
 // });
 
 
-Route::get('/', [LandingPageController::class , 'index'])->name('client.index');
-Route::get('/test', function(){
-    return Inertia::render('admin/Dashboard');
+// Route::get('/', [LandingPageController::class , 'index'])->name('client.index');
+Route::get('/', function(){
+    return Inertia::render('Test');
+});
+Route::get('/page-1', function(){
+    return Inertia::render('Page1');
+});
+Route::get('/page-2', function(){
+    return Inertia::render('Page2');
+});
+Route::get('/page-3', function(){
+    return Inertia::render('Page3');
 });
 
 
