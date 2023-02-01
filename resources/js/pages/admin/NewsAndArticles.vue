@@ -1,7 +1,5 @@
 <template>
-    <div>
-      News And Artilces
-    </div>
+    <EmptyCard/>
 </template>
 
 <script>

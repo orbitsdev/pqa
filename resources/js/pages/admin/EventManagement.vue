@@ -1,9 +1,7 @@
 
 
 <template>
-    <div>
-        Event Management
-    </div>
+    <EmptyCard/>
 </template>
 
 <script>

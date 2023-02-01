@@ -1,13 +1,14 @@
+
+
 <template>
-    <EmptyCard/>
+    <div>
+            Testimonials
+    </div>
 </template>
 
 <script>
-import AdminLayout from '../../layouts/admin/AdminLayout.vue';
     export default {
         
-        layout: AdminLayout,
-
     }
 </script>
 

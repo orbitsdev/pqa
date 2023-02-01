@@ -1,7 +1,5 @@
 <template>
-    <div>
-        FQA
-    </div>
+    <EmptyCard/>
 </template>
 
 <script>

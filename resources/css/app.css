@@ -11,10 +11,12 @@
 
     background: #05224A !important;
 }
-
+.pqa-button-hover{
+    background-image: linear-gradient(to right, #144d9d,#1356b3 ) !important;
+}
 .pqa-button-hover:hover{
 
-    background-image: linear-gradient(to right, #033A85,#1356b3 );
+    background-image: linear-gradient(to right, #033A85,#1356b3 ) !important;
 }
 
 .pqa-nav-text:hover{
@@ -103,6 +105,9 @@ ul.absolute {
 }
 .font-raleway {
     font-family: 'Raleway';
+}
+.font-rubik {
+    font-family: 'Rubik', sans-serif;
 }
 
 

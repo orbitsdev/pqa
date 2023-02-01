@@ -1,6 +1,6 @@
 <template>
     
-    <Link  :class="['text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md', active ? 'pqa-gold-3' : '' ]">
+    <Link  :class="['text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md font-raleway', active ? 'pqa-gold-3' : '' ]">
                  
           <slot>
 

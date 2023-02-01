@@ -13,7 +13,7 @@
         :color="'#ffff'"
         delimiter-icon="mdi-square"
         cycle
-        class="h-60 md:h-96 lg:h-3/4"
+        class="h-60 md:h-96 lg:h-2/5"
         show-arrows="hover"
       >
         <!-- <template v-slot:prev="{ props }">
@@ -149,4 +149,10 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+
+.pqa-lg-h{
+  height: 70vh  !important;
+}
+
+</style>

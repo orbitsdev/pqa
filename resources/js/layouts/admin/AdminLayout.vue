@@ -6,20 +6,20 @@
     <div
       :class="['flex flex-1 flex-col pqa-header pqa-admin-nav', isOpen ? 'md:pl-64' : '']"
     >
-      <div class="sticky top-0 z-10 flex h-16 flex-shrink-0 bg-white shadow">
+      <div class="sticky top-0 z-50 bg-white flex h-16 flex-shrink-0   shadow">
         <div class="flex flex-1 items-center justify-between px-4">
           <div class="flex items-center">
             <button @click="isOpen = !isOpen">
               <AnimatedAdminMenu :isOpen="isOpen" />
             </button>
-            <p class="font-raleway ml-3 font-bold text-lg ml-4 font-semibold capitalize">
+            <p class=" font-rubik text-lg ml-4 font-semibold capitalize">
               {{ message }}
             </p>
           </div>
           <LogoutCard />
         </div>
       </div>
-      <main class="py-6 px-4 pqa-gray-1 ">
+      <main class=" pqa-gray-1 min-h-screen  ">
         <!-- {{ $page.component }} -->
         <!-- ALL CONTENT WILL DISPLAY HERE -->
         <slot></slot>

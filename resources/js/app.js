@@ -17,6 +17,7 @@ import PqaButton from './components/PqaButton.vue';
 import TestNav from './pages/TestNav.vue';
 import NavLink from './shared/NavLink.vue';
 import AdminTab from './shared/AdminTab.vue';
+import EmptyCard from './components/EmptyCard.vue';
 
 
 
@@ -46,6 +47,7 @@ createInertiaApp({
       .component('NavLink', NavLink)
       .component('AdminTab', AdminTab)
       .component('PqaButton', PqaButton)
+      .component('EmptyCard', EmptyCard)
       .mount(el)
   },
 });

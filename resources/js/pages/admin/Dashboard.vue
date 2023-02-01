@@ -1,7 +1,7 @@
 <template>
-    <div>
-        DashBoard
-    </div>
+
+    <EmptyCard/>
+
 </template>
 
 <script>
